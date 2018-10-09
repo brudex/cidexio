@@ -1,0 +1,577 @@
+2018-10-09 22:04:01,751 [7] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-10-09 22:04:02,056 [7] INFO  [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action cedix.io.Controllers.HomeController.Index (cedix.io)
+2018-10-09 22:04:02,071 [7] INFO  [(null)] - Executing action method cedix.io.Controllers.HomeController.Index (cedix.io) - Validation state: Valid
+2018-10-09 22:04:02,075 [7] INFO  [(null)] - Executed action method cedix.io.Controllers.HomeController.Index (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6839ms.
+2018-10-09 22:04:02,103 [7] INFO  [(null)] - Executing ViewResult, running view Index.
+2018-10-09 22:04:02,372 [7] INFO  [(null)] - Executed ViewResult - view Index executed in 283.8852ms.
+2018-10-09 22:04:02,373 [7] INFO  [(null)] - Executed action cedix.io.Controllers.HomeController.Index (cedix.io) in 316.1539ms
+2018-10-09 22:04:02,383 [7] INFO  [(null)] - Request finished in 635.561ms 302 text/html; charset=utf-8
+2018-10-09 22:04:02,408 [7] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/btc/index/gh  
+2018-10-09 22:04:02,435 [7] INFO  [(null)] - Route matched with {action = "Index", controller = "Btc"}. Executing action cedix.io.Controllers.BtcController.Index (cedix.io)
+2018-10-09 22:04:02,453 [7] INFO  [(null)] - Executing action method cedix.io.Controllers.BtcController.Index (cedix.io) with arguments (gh) - Validation state: Valid
+2018-10-09 22:04:02,455 [7] INFO  [(null)] - Executed action cedix.io.Controllers.BtcController.Index (cedix.io) in 18.7214ms
+2018-10-09 22:04:02,490 [7] ERROR [(null)] - An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at cedix.io.Models.DbHandler.GetCountryByCode(String country) in C:\developer\cedix.io\cedix.io\Models\DbHandler.cs:line 37
+   at cedix.io.Controllers.BtcController.Index(String country) in C:\developer\cedix.io\cedix.io\Controllers\BtcController.cs:line 12
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-10-09 22:04:02,526 [7] INFO  [(null)] - Request finished in 118.0051ms 500 text/html; charset=utf-8
+2018-10-09 22:04:02,594 [13] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+2018-10-09 22:04:02,605 [13] INFO  [(null)] - The file /favicon.ico was not modified
+2018-10-09 22:04:02,607 [13] INFO  [(null)] - Request finished in 12.9285ms 304 image/x-icon
+2018-10-09 22:04:31,450 [13] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/account/register  
+2018-10-09 22:04:31,453 [13] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:04:31,459 [13] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:04:31,461 [13] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Register (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.3834ms.
+2018-10-09 22:04:31,465 [13] INFO  [(null)] - Executing ViewResult, running view Register.
+2018-10-09 22:04:31,526 [13] INFO  [(null)] - Executed ViewResult - view Register executed in 63.6658ms.
+2018-10-09 22:04:31,526 [13] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 73.5169ms
+2018-10-09 22:04:31,527 [13] INFO  [(null)] - Request finished in 77.8518ms 200 text/html; charset=utf-8
+2018-10-09 22:04:31,582 [17] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/icon-fonts/icons.css  
+2018-10-09 22:04:31,582 [17] INFO  [(null)] - The file /icon-fonts/icons.css was not modified
+2018-10-09 22:04:31,583 [17] INFO  [(null)] - Request finished in 1.886ms 304 text/css
+2018-10-09 22:04:31,646 [13] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/js/theme.functions.js  
+2018-10-09 22:04:31,646 [13] INFO  [(null)] - The file /js/theme.functions.js was not modified
+2018-10-09 22:04:31,647 [13] INFO  [(null)] - Request finished in 1.2648ms 304 application/javascript
+2018-10-09 22:04:31,711 [17] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/icon-fonts/Simple-Line-Icons-Pro.ttf?bnq6qi  
+2018-10-09 22:04:31,712 [17] INFO  [(null)] - The file /icon-fonts/Simple-Line-Icons-Pro.ttf was not modified
+2018-10-09 22:04:31,713 [17] INFO  [(null)] - Request finished in 1.333ms 304 application/x-font-ttf
+2018-10-09 22:05:05,757 [17] INFO  [(null)] - Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 258
+2018-10-09 22:05:05,770 [17] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:05:05,803 [17] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments (cedix.io.Models.AccountViewModels.RegisterViewModel, ) - Validation state: Valid
+2018-10-09 22:05:05,815 [17] WARN  [(null)] - User 6a1aea52-8c94-4f81-b027-e4dbf26f317a password validation failed: PasswordRequiresUpper.
+2018-10-09 22:05:05,816 [17] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Register (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 11.5782ms.
+2018-10-09 22:05:05,816 [17] INFO  [(null)] - Executing ViewResult, running view Register.
+2018-10-09 22:05:05,818 [17] INFO  [(null)] - Executed ViewResult - view Register executed in 2.203ms.
+2018-10-09 22:05:05,818 [17] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 48.0604ms
+2018-10-09 22:05:05,819 [17] INFO  [(null)] - Request finished in 61.4508ms 200 text/html; charset=utf-8
+2018-10-09 22:05:22,179 [23] INFO  [(null)] - Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 258
+2018-10-09 22:05:22,179 [23] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:05:22,182 [23] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments (cedix.io.Models.AccountViewModels.RegisterViewModel, ) - Validation state: Valid
+2018-10-09 22:05:22,441 [23] INFO  [(null)] - Entity Framework Core 2.1.3-rtm-32065 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-10-09 22:05:22,685 [26] ERROR [(null)] - An error occurred using the connection to database 'cedix' on server 'localhost'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+2018-10-09 22:05:22,714 [26] ERROR [(null)] - An exception occurred in the database while iterating the results of a query for context type 'cedix.io.Data.ApplicationDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2018-10-09 22:05:22,744 [26] ERROR [(null)] - An exception occurred in the database while iterating the results of a query for context type 'cedix.io.Data.ApplicationDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2018-10-09 22:05:22,781 [26] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 599.9266ms
+2018-10-09 22:05:22,815 [17] ERROR [(null)] - An error occurred using the connection to database '' on server 'localhost'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 416
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+2018-10-09 22:05:22,822 [17] ERROR [(null)] - An exception occurred while calculating the database error page content. Skipping display of the database error page.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 416
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+2018-10-09 22:05:22,843 [17] ERROR [(null)] - An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at cedix.io.Controllers.AccountController.Register(RegisterViewModel model, String returnUrl) in C:\developer\cedix.io\cedix.io\Controllers\AccountController.cs:line 225
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-10-09 22:05:22,884 [17] INFO  [(null)] - Request finished in 704.8041ms 500 text/html; charset=utf-8
+2018-10-09 22:15:07,153 [8] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-10-09 22:15:07,281 [8] INFO  [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action cedix.io.Controllers.HomeController.Index (cedix.io)
+2018-10-09 22:15:07,288 [8] INFO  [(null)] - Executing action method cedix.io.Controllers.HomeController.Index (cedix.io) - Validation state: Valid
+2018-10-09 22:15:07,291 [8] INFO  [(null)] - Executed action method cedix.io.Controllers.HomeController.Index (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8169ms.
+2018-10-09 22:15:07,310 [8] INFO  [(null)] - Executing ViewResult, running view Index.
+2018-10-09 22:15:07,520 [8] INFO  [(null)] - Executed ViewResult - view Index executed in 222.8038ms.
+2018-10-09 22:15:07,521 [8] INFO  [(null)] - Executed action cedix.io.Controllers.HomeController.Index (cedix.io) in 239.6404ms
+2018-10-09 22:15:07,528 [8] INFO  [(null)] - Request finished in 378.4985ms 302 text/html; charset=utf-8
+2018-10-09 22:15:07,531 [9] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/btc/index/gh  
+2018-10-09 22:15:07,544 [9] INFO  [(null)] - Route matched with {action = "Index", controller = "Btc"}. Executing action cedix.io.Controllers.BtcController.Index (cedix.io)
+2018-10-09 22:15:07,555 [9] INFO  [(null)] - Executing action method cedix.io.Controllers.BtcController.Index (cedix.io) with arguments (gh) - Validation state: Valid
+2018-10-09 22:15:07,557 [9] INFO  [(null)] - Executed action cedix.io.Controllers.BtcController.Index (cedix.io) in 12.4158ms
+2018-10-09 22:15:07,602 [9] ERROR [(null)] - An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at cedix.io.Models.DbHandler.GetCountryByCode(String country) in C:\developer\cedix.io\cedix.io\Models\DbHandler.cs:line 37
+   at cedix.io.Controllers.BtcController.Index(String country) in C:\developer\cedix.io\cedix.io\Controllers\BtcController.cs:line 12
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-10-09 22:15:07,648 [9] INFO  [(null)] - Request finished in 116.6043ms 500 text/html; charset=utf-8
+2018-10-09 22:15:18,684 [13] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/account/register  
+2018-10-09 22:15:18,687 [13] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:15:18,694 [13] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:15:18,695 [13] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Register (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.2545ms.
+2018-10-09 22:15:18,703 [13] INFO  [(null)] - Executing ViewResult, running view Register.
+2018-10-09 22:15:18,756 [13] INFO  [(null)] - Executed ViewResult - view Register executed in 59.9018ms.
+2018-10-09 22:15:18,756 [13] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 69.0304ms
+2018-10-09 22:15:18,757 [13] INFO  [(null)] - Request finished in 73.3284ms 200 text/html; charset=utf-8
+2018-10-09 22:15:22,984 [7] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/account/login  
+2018-10-09 22:15:22,990 [7] INFO  [(null)] - Route matched with {action = "Login", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Login (cedix.io)
+2018-10-09 22:15:22,992 [7] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Login (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:15:23,001 [7] INFO  [(null)] - AuthenticationScheme: Identity.External signed out.
+2018-10-09 22:15:23,002 [7] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Login (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 9.7468ms.
+2018-10-09 22:15:23,004 [7] INFO  [(null)] - Executing ViewResult, running view Login.
+2018-10-09 22:15:23,035 [7] INFO  [(null)] - Executed ViewResult - view Login executed in 32.9502ms.
+2018-10-09 22:15:23,035 [7] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Login (cedix.io) in 44.471ms
+2018-10-09 22:15:23,037 [7] INFO  [(null)] - Request finished in 52.7608ms 200 text/html; charset=utf-8
+2018-10-09 22:15:25,368 [10] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/account/login  
+2018-10-09 22:15:25,368 [10] INFO  [(null)] - Route matched with {action = "Login", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Login (cedix.io)
+2018-10-09 22:15:25,369 [10] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Login (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:15:25,370 [10] INFO  [(null)] - AuthenticationScheme: Identity.External signed out.
+2018-10-09 22:15:25,370 [10] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Login (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5513ms.
+2018-10-09 22:15:25,370 [10] INFO  [(null)] - Executing ViewResult, running view Login.
+2018-10-09 22:15:25,372 [10] INFO  [(null)] - Executed ViewResult - view Login executed in 1.9012ms.
+2018-10-09 22:15:25,373 [10] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Login (cedix.io) in 3.5409ms
+2018-10-09 22:15:25,373 [10] INFO  [(null)] - Request finished in 5.551ms 200 text/html; charset=utf-8
+2018-10-09 22:15:27,680 [13] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/Account/Register  
+2018-10-09 22:15:27,681 [13] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:15:27,682 [13] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:15:27,682 [13] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Register (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0147ms.
+2018-10-09 22:15:27,683 [13] INFO  [(null)] - Executing ViewResult, running view Register.
+2018-10-09 22:15:27,685 [13] INFO  [(null)] - Executed ViewResult - view Register executed in 1.5822ms.
+2018-10-09 22:15:27,685 [13] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 3.341ms
+2018-10-09 22:15:27,685 [13] INFO  [(null)] - Request finished in 4.9881ms 200 text/html; charset=utf-8
+2018-10-09 22:15:48,740 [10] INFO  [(null)] - Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 260
+2018-10-09 22:15:48,747 [10] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:15:48,784 [10] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments (cedix.io.Models.AccountViewModels.RegisterViewModel, ) - Validation state: Valid
+2018-10-09 22:15:48,982 [10] INFO  [(null)] - Entity Framework Core 2.1.3-rtm-32065 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-10-09 22:15:49,208 [15] ERROR [(null)] - An error occurred using the connection to database 'cedix' on server 'localhost'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+2018-10-09 22:15:49,237 [15] ERROR [(null)] - An exception occurred in the database while iterating the results of a query for context type 'cedix.io.Data.ApplicationDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+2018-10-09 22:15:49,319 [15] ERROR [(null)] - An exception occurred in the database while iterating the results of a query for context type 'cedix.io.Data.ApplicationDbContext'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+2018-10-09 22:15:49,434 [15] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 686.9329ms
+2018-10-09 22:15:49,476 [10] ERROR [(null)] - An error occurred using the connection to database '' on server 'localhost'.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 416
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+2018-10-09 22:15:49,489 [10] ERROR [(null)] - An exception occurred while calculating the database error page content. Skipping display of the database error page.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 416
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlDatabaseCreator.<>c__DisplayClass20_0.<<ExistsAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+2018-10-09 22:15:49,515 [10] ERROR [(null)] - An unhandled exception has occurred while executing the request.
+MySql.Data.MySqlClient.MySqlException (0x80004005): Authentication method 'caching_sha2_password' failed. Either use a secure connection, specify the server's RSA public key with ServerRSAPublicKeyFile, or set AllowPublicKeyRetrieval=True.
+   at MySqlConnector.Core.ServerSession.GetRsaPublicKeyAsync(String switchRequestName, ConnectionSettings cs, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 594
+   at MySqlConnector.Core.ServerSession.SwitchAuthenticationAsync(ConnectionSettings cs, PayloadData payload, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 494
+   at MySqlConnector.Core.ServerSession.ConnectAsync(ConnectionSettings cs, ILoadBalancer loadBalancer, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ServerSession.cs:line 361
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 112
+   at MySqlConnector.Core.ConnectionPool.GetSessionAsync(MySqlConnection connection, IOBehavior ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\Core\ConnectionPool.cs:line 141
+   at MySql.Data.MySqlClient.MySqlConnection.CreateSessionAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 405
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Nullable`1 ioBehavior, CancellationToken cancellationToken) in C:\projects\mysqlconnector\src\MySqlConnector\MySql.Data.MySqlClient\MySqlConnection.cs:line 175
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenDbConnectionAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.BufferlessMoveNext(DbContext _, Boolean buffer, CancellationToken cancellationToken)
+   at Pomelo.EntityFrameworkCore.MySql.Storage.Internal.MySqlExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncQueryingEnumerable`1.AsyncEnumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.FirstOrDefault_[TSource](IAsyncEnumerable`1 source, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.TaskResultAsyncEnumerable`1.Enumerator.MoveNext(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.SelectEnumerableAsyncIterator`2.MoveNextCore(CancellationToken cancellationToken)
+   at System.Linq.AsyncEnumerable.AsyncIterator`1.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.AsyncLinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext(CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryCompiler.ExecuteSingletonAsyncQuery[TResult](QueryContext queryContext, Func`2 compiledQuery, IDiagnosticsLogger`1 logger, Type contextType)
+   at Microsoft.AspNetCore.Identity.UserManager`1.FindByNameAsync(String userName)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateUserName(UserManager`1 manager, TUser user, ICollection`1 errors)
+   at Microsoft.AspNetCore.Identity.UserValidator`1.ValidateAsync(UserManager`1 manager, TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.ValidateUserAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user)
+   at Microsoft.AspNetCore.Identity.UserManager`1.CreateAsync(TUser user, String password)
+   at cedix.io.Controllers.AccountController.Register(RegisterViewModel model, String returnUrl) in C:\developer\cedix.io\cedix.io\Controllers\AccountController.cs:line 225
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at System.Threading.Tasks.ValueTask`1.get_Result()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-10-09 22:15:49,621 [10] INFO  [(null)] - Request finished in 880.9963ms 500 text/html; charset=utf-8
+2018-10-09 22:28:47,205 [30] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/Account/Register  
+2018-10-09 22:28:47,205 [30] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:28:47,207 [30] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:28:47,208 [30] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Register (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0164ms.
+2018-10-09 22:28:47,208 [30] INFO  [(null)] - Executing ViewResult, running view Register.
+2018-10-09 22:28:47,210 [30] INFO  [(null)] - Executed ViewResult - view Register executed in 2.0264ms.
+2018-10-09 22:28:47,214 [30] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 7.6899ms
+2018-10-09 22:28:47,218 [30] INFO  [(null)] - Request finished in 12.9355ms 200 text/html; charset=utf-8
+2018-10-09 22:29:08,098 [30] INFO  [(null)] - Request starting HTTP/1.1 POST http://localhost:5000/Account/Register application/x-www-form-urlencoded 258
+2018-10-09 22:29:08,099 [30] INFO  [(null)] - Route matched with {action = "Register", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Register (cedix.io)
+2018-10-09 22:29:08,103 [30] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Register (cedix.io) with arguments (cedix.io.Models.AccountViewModels.RegisterViewModel, ) - Validation state: Valid
+2018-10-09 22:29:08,119 [30] INFO  [(null)] - Entity Framework Core 2.1.3-rtm-32065 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-10-09 22:29:08,233 [33] INFO  [(null)] - Executed DbCommand (53ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `AspNetUsers` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
+2018-10-09 22:29:08,354 [30] INFO  [(null)] - Executed DbCommand (9ms) [Parameters=[@__normalizedEmail_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `AspNetUsers` AS `u`
+WHERE `u`.`NormalizedEmail` = @__normalizedEmail_0
+LIMIT 1
+2018-10-09 22:29:08,359 [30] WARN  [(null)] - User 171be1e0-b807-473f-9923-e900ac205e55 validation failed: DuplicateUserName;DuplicateEmail.
+2018-10-09 22:29:08,361 [30] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Register (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 256.8617ms.
+2018-10-09 22:29:08,361 [30] INFO  [(null)] - Executing ViewResult, running view Register.
+2018-10-09 22:29:08,363 [30] INFO  [(null)] - Executed ViewResult - view Register executed in 1.6738ms.
+2018-10-09 22:29:08,363 [30] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Register (cedix.io) in 260.7627ms
+2018-10-09 22:29:08,364 [30] INFO  [(null)] - Request finished in 265.2742ms 200 text/html; charset=utf-8
+2018-10-09 22:29:27,856 [38] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/account/login  
+2018-10-09 22:29:27,856 [38] INFO  [(null)] - Route matched with {action = "Login", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Login (cedix.io)
+2018-10-09 22:29:27,858 [38] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Login (cedix.io) with arguments () - Validation state: Valid
+2018-10-09 22:29:27,858 [38] INFO  [(null)] - AuthenticationScheme: Identity.External signed out.
+2018-10-09 22:29:27,858 [38] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Login (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5583ms.
+2018-10-09 22:29:27,859 [38] INFO  [(null)] - Executing ViewResult, running view Login.
+2018-10-09 22:29:27,860 [38] INFO  [(null)] - Executed ViewResult - view Login executed in 1.5268ms.
+2018-10-09 22:29:27,861 [38] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Login (cedix.io) in 3.1743ms
+2018-10-09 22:29:27,861 [38] INFO  [(null)] - Request finished in 5.5288ms 200 text/html; charset=utf-8
+2018-10-09 22:29:47,344 [30] INFO  [(null)] - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 231
+2018-10-09 22:29:47,353 [30] INFO  [(null)] - Route matched with {action = "Login", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Login (cedix.io)
+2018-10-09 22:29:47,355 [30] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Login (cedix.io) with arguments (cedix.io.Models.AccountViewModels.LoginViewModel, ) - Validation state: Valid
+2018-10-09 22:29:47,362 [30] INFO  [(null)] - Entity Framework Core 2.1.3-rtm-32065 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-10-09 22:29:47,364 [40] INFO  [(null)] - Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `AspNetUsers` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
+2018-10-09 22:29:47,392 [40] WARN  [(null)] - Invalid password for user a12dc1c6-7b40-4da6-9947-f40d48183746.
+2018-10-09 22:29:47,392 [40] WARN  [(null)] - User a12dc1c6-7b40-4da6-9947-f40d48183746 failed to provide the correct password.
+2018-10-09 22:29:47,393 [40] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Login (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 34.1662ms.
+2018-10-09 22:29:47,393 [40] INFO  [(null)] - Executing ViewResult, running view Login.
+2018-10-09 22:29:47,394 [40] INFO  [(null)] - Executed ViewResult - view Login executed in 1.3856ms.
+2018-10-09 22:29:47,395 [40] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Login (cedix.io) in 41.5208ms
+2018-10-09 22:29:47,395 [40] INFO  [(null)] - Request finished in 50.9962ms 200 text/html; charset=utf-8
+2018-10-09 22:29:58,332 [38] INFO  [(null)] - Request starting HTTP/1.1 POST http://localhost:5000/Account/Login application/x-www-form-urlencoded 230
+2018-10-09 22:29:58,333 [38] INFO  [(null)] - Route matched with {action = "Login", controller = "Account"}. Executing action cedix.io.Controllers.AccountController.Login (cedix.io)
+2018-10-09 22:29:58,334 [38] INFO  [(null)] - Executing action method cedix.io.Controllers.AccountController.Login (cedix.io) with arguments (cedix.io.Models.AccountViewModels.LoginViewModel, ) - Validation state: Valid
+2018-10-09 22:29:58,335 [38] INFO  [(null)] - Entity Framework Core 2.1.3-rtm-32065 initialized 'ApplicationDbContext' using provider 'Pomelo.EntityFrameworkCore.MySql' with options: None
+2018-10-09 22:29:58,336 [40] INFO  [(null)] - Executed DbCommand (0ms) [Parameters=[@__normalizedUserName_0='?' (Size = 256)], CommandType='Text', CommandTimeout='30']
+SELECT `u`.`Id`, `u`.`AccessFailedCount`, `u`.`ConcurrencyStamp`, `u`.`Email`, `u`.`EmailConfirmed`, `u`.`LockoutEnabled`, `u`.`LockoutEnd`, `u`.`NormalizedEmail`, `u`.`NormalizedUserName`, `u`.`PasswordHash`, `u`.`PhoneNumber`, `u`.`PhoneNumberConfirmed`, `u`.`SecurityStamp`, `u`.`TwoFactorEnabled`, `u`.`UserName`
+FROM `AspNetUsers` AS `u`
+WHERE `u`.`NormalizedUserName` = @__normalizedUserName_0
+LIMIT 1
+2018-10-09 22:29:58,413 [42] INFO  [(null)] - Executed DbCommand (2ms) [Parameters=[@__user_Id_0='?' (Size = 255)], CommandType='Text', CommandTimeout='30']
+SELECT `uc`.`Id`, `uc`.`ClaimType`, `uc`.`ClaimValue`, `uc`.`UserId`
+FROM `AspNetUserClaims` AS `uc`
+WHERE `uc`.`UserId` = @__user_Id_0
+2018-10-09 22:29:58,446 [42] INFO  [(null)] - Executed DbCommand (3ms) [Parameters=[@__userId_0='?' (Size = 255)], CommandType='Text', CommandTimeout='30']
+SELECT `role`.`Name`
+FROM `AspNetUserRoles` AS `userRole`
+INNER JOIN `AspNetRoles` AS `role` ON `userRole`.`RoleId` = `role`.`Id`
+WHERE `userRole`.`UserId` = @__userId_0
+2018-10-09 22:29:58,457 [42] INFO  [(null)] - AuthenticationScheme: Identity.Application signed in.
+2018-10-09 22:29:58,460 [42] INFO  [(null)] - User logged in.
+2018-10-09 22:29:58,460 [42] INFO  [(null)] - Executed action method cedix.io.Controllers.AccountController.Login (cedix.io), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 125.6434ms.
+2018-10-09 22:29:58,461 [42] INFO  [(null)] - Executing RedirectResult, redirecting to /.
+2018-10-09 22:29:58,462 [42] INFO  [(null)] - Executed action cedix.io.Controllers.AccountController.Login (cedix.io) in 128.2783ms
+2018-10-09 22:29:58,463 [42] INFO  [(null)] - Request finished in 130.5925ms 302 
+2018-10-09 22:29:58,466 [30] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/  
+2018-10-09 22:29:58,474 [30] INFO  [(null)] - Route matched with {action = "Index", controller = "Home"}. Executing action cedix.io.Controllers.HomeController.Index (cedix.io)
+2018-10-09 22:29:58,474 [30] INFO  [(null)] - Executing action method cedix.io.Controllers.HomeController.Index (cedix.io) - Validation state: Valid
+2018-10-09 22:29:58,474 [30] INFO  [(null)] - Executed action method cedix.io.Controllers.HomeController.Index (cedix.io), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0217ms.
+2018-10-09 22:29:58,475 [30] INFO  [(null)] - Executing ViewResult, running view Index.
+2018-10-09 22:29:58,477 [30] INFO  [(null)] - Executed ViewResult - view Index executed in 2.8927ms.
+2018-10-09 22:29:58,479 [30] INFO  [(null)] - Executed action cedix.io.Controllers.HomeController.Index (cedix.io) in 4.8715ms
+2018-10-09 22:29:58,479 [30] INFO  [(null)] - Request finished in 13.3797ms 302 text/html; charset=utf-8
+2018-10-09 22:29:58,482 [30] INFO  [(null)] - Request starting HTTP/1.1 GET http://localhost:5000/btc/index/gh  
+2018-10-09 22:29:58,485 [30] INFO  [(null)] - Route matched with {action = "Index", controller = "Btc"}. Executing action cedix.io.Controllers.BtcController.Index (cedix.io)
+2018-10-09 22:29:58,485 [30] INFO  [(null)] - Executing action method cedix.io.Controllers.BtcController.Index (cedix.io) with arguments (gh) - Validation state: Valid
+2018-10-09 22:29:58,486 [30] INFO  [(null)] - Executed action cedix.io.Controllers.BtcController.Index (cedix.io) in 0.9097ms
+2018-10-09 22:29:58,487 [30] ERROR [(null)] - An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at cedix.io.Models.DbHandler.GetCountryByCode(String country) in C:\developer\cedix.io\cedix.io\Models\DbHandler.cs:line 37
+   at cedix.io.Controllers.BtcController.Index(String country) in C:\developer\cedix.io\cedix.io\Controllers\BtcController.cs:line 12
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.DatabaseErrorPageMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2018-10-09 22:29:58,500 [30] INFO  [(null)] - Request finished in 18.1602ms 500 text/html; charset=utf-8

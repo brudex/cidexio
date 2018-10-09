@@ -1,0 +1,69 @@
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<header id="header" class="header2 header-full header-white header-white-sticky clearfix">
+    <div class="container-fluid">
+        <div class="header-content">
+            <a class="brand-modern" href="/"> 
+                <!--<span class="line-1"></span> <span class="line-2"></span> -->
+                <!--<span class="line-3"></span> <span class="logo-label">cedix.io</span> -->            
+            </a>
+            <nav class="navbar navbar-default navbar-2" id="nav">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbar-collapse">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/btc/buy/gh"  aria-expanded="false"><strong>Buy Btc</strong></a>
+                            </li>
+                            <li>
+                                <a href="/btc/sell/gh"><strong>Sell Btc</strong></a>
+                            </li>
+                            <li class="dropdown dropdown-single "> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Contact</a>
+                                <ul class="dropdown-menu single animated fadeInDown" role="menu">
+                                    <li><a href="contact.html">Contact Page Default</a></li>
+                                    <li><a href="contact-2.html">Classic Contact Layout</a></li>
+                                    <li><a href="contact-3.html">Modern Contact Layout</a></li>
+                                    <li><a href="contact-4.html">Centered Contact Layout</a></li>
+                                    <li><a href="contact-5.html">Overlay Contact Layout</a></li>
+                                    <li><a href="contact-6.html">Overlay Contact Layout 2</a></li>
+                                    <li><a href="contact-7.html">Modern Contact Layout 2</a></li>
+                                    <li><a href="contact-8.html">Contact Page Without Map</a></li>
+                                    <li><a href="contact-9.html">Contact Layout With Intro Image</a></li>
+                                    <li><a href="contact-10.html">Tabs Contact Layout</a></li>
+                                </ul>
+                            </li>
+                            @if(SignInManager.IsSignedIn(User)) { 
+                                <li>
+                                    <a href="/my-account"><strong>My Account</strong></a>
+                                </li>
+                            } 
+                            <li class="dropdown dropdown-single col-sm-offset-0">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+                            </li> 
+                            @if(!SignInManager.IsSignedIn(User)) { 
+                            <span class="span-auth-buttons">
+                                <a href="/account/login"  class="btn btn-success btn sm">Login In</a>
+                            </span>
+                             } else {
+                                <span>
+                                    <i class="h5">Hello</i> <span class="text-info h4"> @UserManager.GetUserName(User) </span>
+                                </span>
+                                 <li class="dropdown dropdown-single col-sm-offset-0">
+                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"></a>
+                                 </li>
+                                <span>
+                                    <form asp-action="Logout" asp-controller="Account" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" method="post">
+                                        <button type="submit" class="btn btn-link navbar-btn navbar-link">Logout</button>
+                                    </form> 
+                                </span>
+                             } 
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+</header>
+

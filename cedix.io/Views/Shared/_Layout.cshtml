@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - cedix.io</title>
+    <partial name="_Head"/>
+</head>
+<body class="nicescroll">
+<!-- Page Preloader  && Scroll to top button--><a class="scroll-to-top-fixed page-scroll" href="body"><span class="icon-arrow-1-up"></span></a>
+<!--<div class="page-preloader">-->
+<!--<div class="page-loader-spinner"> <span></span><span></span><span></span> </div>-->
+<!--</div>-->
+<!-- End Page Preloader -->
+<!-- RIGHT MENU START -->
+<!-- RIGHT MENU END -->
+<!-- SERACH FORM POPUP START -->
+<div class="search-popup-box animated fadeInDown"> <span class="search-popup-close"><span class="icon-close"></span></span>
+    <form class="search-form-popup" action="#">
+        <div class="form-group ui-widget"> <input type="text" class="form-control search-form-autocomplete" placeholder="Type here to search for services">
+            <button type="submit" class=""><span class="icon-magnifier-1"></span></button> </div>
+    </form>
+</div>
+<!-- SERACH FORM POPUP END -->
+<div id="wrapper" class="clearfix">
+    <!-- HEADER START -->
+    <partial name="_Header" />
+    <!-- HEADER ENDS  -->
+    @RenderBody()
+    <!-- CALL TO ACTION SECTION START -->
+    <partial name="_Footer"/>
+</div>
+<!-- MAIN JS FILES -->
+<partial name="_Scripts" />
+@RenderSection("Scripts", required: false)
+<!-- MAIN JS FILES -->
+</body>
+</html>

@@ -1,0 +1,502 @@
+/*Default Color CSS Content */
+body, p, .featured-content h1.small, .form-group > label, .checkbox > label, .alert > p, .block-content-wrapper h2, .intro-text h1, .intro-text h2, .intro-text h3, .intro-text h4, .intro-text h5, .intro-text h6, .restaurant-info-img-content h4
+, .contact-title h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+.color-1 {
+  color: #0eb1eb !important;
+}
+
+.background-1, .animation-box.background-1:hover .animation-box-style-2.background-1:hover, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-background-1,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-background-1, a.brand-modern span.line-1, .header.dark-nav a.brand-modern span.line-1, .wte-separator.background-1:before {
+  background-color: #0eb1eb;
+}
+
+.color-2 {
+  color: #fe403b;
+}
+
+.color-2:hover {
+  color: #fe403b;
+}
+
+.background-2, .animation-box.background-2:hover .animation-box-style-2.background-2:hover, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-background-2,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-background-2, a.brand-modern span.line-2, .header.dark-nav a.brand-modern span.line-2, .wte-separator.background-2:before {
+  background-color: #fe403b;
+}
+
+.color-3 {
+  color: #323a44;
+}
+
+.background-3, .animation-box.background-3:hover .animation-box-style-2.background-3:hover, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-background-3,
+.bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-background-3, .blog-desc-details:after, a.brand-modern span.line-3, .header.dark-nav a.brand-modern span.line-3, .wte-separator.background-3:before {
+  background-color: #323a44;
+}
+
+.tp-caption .btn-default, .btn-default, .flex-control-paging li a.flex-active, .navbar-toggle, #mobile-navbar, .offscreen-container, .call-to-action, .maincolor-background,
+ul.widget-ul li a > span, ul.widget-social li a:hover, #people .item .info, .main-color, .flexslider.clients .flex-control-paging li a.flex-active, #portfolio-filter li a:after,
+.navbar.banner--clone .nav li.active > a, .pagination-box .pager li a, .pricing-table-column.special-price-table .pricing-table-head,
+.pricing-table-column.special-price-table .pricing-table-content, .shop-list .shop-product .shop-button-box .addtocart-button,
+.progress-bar-box .progress-bar, .background-1, .selecter .selecter-item:hover, .selecter .selecter-item.selected:hover, #footer.colored,
+section.about-counter, .error-page-title:after, .tabpanel-style-4 .nav-tabs > li.active > a, .tabpanel-style-4 .nav-tabs > li > a:hover, .tabpanel-style-4 .nav-tabs > li.active > a:focus, .tabpanel-style-4 .nav-tabs > li.active > a:hover,
+.tabpanel-style-4 .tab-content h3:after, .about-classic-column-themecolor, .selecter .selecter-item:hover, .selecter .selecter-item.selected:hover, .text_holder_overlay,
+.tabpanel-style-sidenav ul.nav-tabs > li a:active, .tabpanel-style-sidenav ul.nav-tabs > li a:hover, .tabpanel-style-sidenav ul.nav-tabs > li.active a, .shop-type-2 a.add-to-cart-item, div.submit-form-upload-btn, .banner--clone.banner--stick .btn-cart .header-cart-count, .navbar-2 .btn-cart .header-cart-count, .tabpanel-style-2 .nav-tabs > li.active > a, .tabpanel-style-2 .nav-tabs > li.active > a:focus, .tabpanel-style-2 .nav-tabs > li.active > a:hover,
+.withmaincolor .testimonials-slider .flex-control-nav li a, .withmaincolor .testimonials-slider .testimonials-slider-box .testimonial-image, .dropcap.dropcap-style-2, .alert-default, blockquote:before, blockquote:after, .tp-caption .btn-default, .btn-default, .content-title h5:before, .content-title h5:after, .icon-box.icon-fill .icon-block, .icon-box.icon-square:hover .icon-block, .icon-box.icon-circle:hover .icon-block, .icon-box.icon-square:hover .icon-block span,
+.icon-box.icon-circle:hover .icon-block span, .icon-type.it-main-color:hover, .icon-type.it-main-color:focus, .icon-type.it-main-color-reverse, .icon-type.it-main-color:hover span, .icon-type.it-main-color-reverse:hover span, .add-to-cart-form .count-input .count-plus:hover, .add-to-cart-form .count-input .count-minus:hover,
+.pricing-table-column-2.special-price-table .pricing-table-head, .pricing-table-container.special-price-table, .pricing-table-column-2.special-price-table .pricing-table-content-2, .header-white .navbar-2 .btn-cart .header-cart-count, ul.forum-list li.forum-header, .textbox-withmaincolor, .background-1,
+.team-member-job, .team-section .team-desc-box:before, .team-section .team-desc-box:after, .shop-categories:hover .shop-title-categories, .content-divider-colored-bg [class^="icon-"], .overlay-animation-6 .content-box, .block-content-wrapper h1, .benefits-box h1, .selecter .selecter-item:hover, .selecter .selecter-item.selected:hover, .ui-slider .ui-slider-range, #header.header-main-color, .navbar-2.banner--clone.main-color-navbar,
+.tabpanel-style-center .nav-tabs > li.active > a, .tabpanel-style-center1 .nav-tabs > li.active > a:focus, .tabpanel-style-center .nav-tabs > li.active > a:hover, .label.label-primary, .label.label-primary, .star-rating .caption .label, .tparrows.preview5:hover,
+.table-style-4.table-withmaincolor thead tr th,
+.table-style-5.table-withmaincolor thead tr th,
+.table-style-6.table-withmaincolor thead tr th,
+.table-style-6.table-withmaincolor.table-striped > tbody > tr:nth-of-type(odd):hover,
+.table-style-7.table-withmaincolor thead tr th, .table-style-7.table-withmaincolor tbody tr:last-child th,
+.table-style-7.table-withmaincolor tbody tr:last-child td,
+.table-withmaincolor.table-hover > tbody > tr:hover,
+.table-style-2.table-withmaincolor thead tr th, .table-style-3.table-withmaincolor thead tr th, .table-style-3.table-withmaincolor tbody tr th, .parallax-withmaincolor, .contact-overlay-map .minimize-form:hover, .team-3:hover .team-social, .team-5:hover .team-social,
+.special-table-2, .special-table-3, span.pricing-3-discount,
+#vertical-timeline-container:before, .subscribe-fancy-themebg, .empty-cart, .team-4:hover .team-social, .content-divider-colored, .content-divider-colored-bg, .withmainbackground,
+.services-2-heading, .icon-box-2-effect-4 .icon-block-2, .services-2-heading, .promotion-box-theme-colored, .promotion-box-theme-colored .promotion-box-title h4, .icon-block-2, .icon-box-2-effect-2:hover .icon-block-2, .icon-box-2-effect-3 .icon-block-2:after, .icon-box-2-effect-4 .icon-block-2:after, .icon-box-2-effect-6 .icon-block-2,
+.icon-box-2-effect-6:hover .icon-block-2, .simple-icon-icon, a.call-to-action-link:hover, .add-to-cart-form .count-input .count-plus, .add-to-cart-form .count-input .count-minus,
+.tabpanel-style-5 .nav-tabs > li > a:active, .tabpanel-style-5 .nav-tabs > li.active > a:focus,
+.tabpanel-style-5 .nav-tabs > li.active > a, .tabpanel-style-5 .nav-tabs > li.active > a:active,
+.tabpanel-style-6 .nav-tabs > li > a:active, .tabpanel-style-6 .nav-tabs > li.active > a:focus,
+.tabpanel-style-6 .nav-tabs > li.active > a, .tabpanel-style-6 .nav-tabs > li.active > a:active, .special-price-box, .dropdown-menu > .active > a, .dropdown-menu > .active > a:focus, .dropdown-menu > .active > a:hover,
+#header.main-color-nav .navbar-2, .latest-post-data, .blog-single-post .bsp-heading h1, .testimonial-single .slick-dots li button:before,
+.slick-dots li button:before, .blog-list > article.default-post .blog-post-2 .bp2-category, .timeline-complete .timeline-status.timeline-active:before, .megamenu.maincolor, .dropdown.maincolor ul, .dropdown.maincolor ul.dropdown-menu, #footer.maincolor, #copyrights.maincolor, .no-touch .cd-horizontal-timeline .events a:hover::after, .cd-horizontal-timeline .events a.selected::after, .cd-horizontal-timeline .filling-line, .pinpulsebox span, .main-color-dropdown .megamenu, .main-color-dropdown .dropdown-menu, #cd-timeline::before,
+ul.icon-list.il-main-bg li [class^="icon-"], .process-steps ul li.current a .number, ol.ordered-list.ol-main-bg li:before, .irs-bar, .irs-from, .irs-to, .irs-single, .open > .dropdown-toggle.btn-default, .fc-unthemed .fc-today, .fc-content, #particles-js, .s-icon:hover, #progressbar li.active:before, #progressbar li.active:after, .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover, .portfolio-filter .selecter-item.activeFilter, #copyrights ul.widget-social li a:hover, .page-loader-spinner span, .loader-6:before, .loader-2, .loader-2:before, .loader-2:after {
+  background-color: #0eb1eb;
+}
+
+#header.header-main-color-sticky.header-sticky {
+  background: #0eb1eb !important;
+}
+
+::-moz-selection {
+  background-color: #0eb1eb;
+}
+
+::selection {
+  background-color: #0eb1eb;
+}
+
+.header-content .phone-number span, .intro-block h6, .icon-block [class^="icon-"], ul.header-links li a:hover, ul.widget-ul li a:hover,
+.navbar.banner--clone .nav > li > a:hover, .navbar.banner--clone .btn-search:hover, .success-lg:hover [class^="icon-"], #copyrights ul li a:hover,
+#copyrights a:hover, .breadcrumb > .active, #portfolio-filter li a.activeFilter, #portfolio-filter li a:hover, .text_holder_normal .portfolio_title a:hover,
+a.image_zoom:hover [class^="icon-"], a.image_link:hover [class^="icon-"], a.load-more-btn:hover, a.load-more-btn:hover [class^="icon-"], .intro-block h1 [class^="icon-"], .shop-list .shop-product h5 a:hover, ul#portfolio-layout-filter li a.active,
+.text_holder_normal .project_category a:hover, .shop-price, ul.sidebar-shop-cat > li > a:hover, a.load-more-btn:hover, a.load-more-btn:hover [class^="icon-"], .intro-block h1 [class^="icon-"], .shop-list .shop-product h5 a:hover, ul#portfolio-layout-filter li a.active,
+.text_holder_normal .project_category a:hover, ul.sidebar-cat > li span, .shop-price, ul.sidebar-cat > li > a:hover,
+ul.jobs-list li [class^="icon-"], .team-social a:hover, .icon-default, .error-page-icon span [class^="icon-"], .footer-3-container-text a:hover, .testimonials-box .testimonial-author, #page-title.image-page-title-fullwidth h1, #page-title.image-page-title-left.image-page-noimage h2,
+ul.services-2-icons, ul.shop-layout-filter li a.active, ul.portfolio-layout-filter li a.active, ul.porfolio-project-details-list > li .ppd-right a:hover,
+.related-projects-title .slick-custom-next:hover, .related-projects-title .slick-custom-prev:hover, .recent-post-content a:hover, .form-group.login-form-submit a, .shop-type-1 a.add-to-cart-item:before, .shop-type-2 a.add-to-cart-item:before, a.form-forgotpass,
+.sidebar-shop-products-list li .ssp-title:hover, .restaurant-info ul li [class^="icon-"], .navbar-default.default .btn-cart .header-cart-count, .cart-shop-products-list li .csp-title:hover, .blog-list > article .blog-desc h4 a:hover, .blog-list > article .blog-desc h4 a:focus,
+.blog-list-full > article .blog-desc h4 a:hover, .blog-list-full > article .blog-desc h4 a:focus, .blog-list > article .blog-desc .blog-desc-details a:hover, .blog-list > article .blog-desc .blog-desc-details a:focus,
+.blog-list-full > article .blog-desc .blog-desc-details a:hover, .blog-list-full > article .blog-desc .blog-desc-details a:focus,
+.single-post > article .blog-desc .blog-desc-details a:hover, .single-post > article .blog-desc .blog-desc-details a:focus, .blog-list > article .blog-desc .btn-breadmore:hover, .blog-list > article .blog-desc .btn-breadmore:focus,
+.blog-list-full > article .blog-desc .btn-breadmore:hover, .blog-list-full > article .blog-desc .btn-breadmore:focus, .blog-masonry > article .blog-desc h4 a:hover, .blog-masonry > article .blog-desc h4 a:focus, .blog-masonry > article .blog-desc .blog-desc-details a:hover, .blog-masonry > article .blog-desc .blog-desc-details a:focus,
+.comment_response .media h6 a, .comment_response .media_cloud a.reply_link, .tabpanel-style-1 .nav-tabs > li.active > a:focus, .tabpanel-style-1 .nav-tabs > li.active > a:hover, .tabpanel-style-3 .nav-tabs > li.active > a, .tabpanel-style-3 .nav-tabs > li.active > a:focus, .tabpanel-style-3 .nav-tabs > li.active > a:hover, .dropcap.dropcap-style-1,
+.icon-box.icon-square.icon-fill:hover .icon-block [class^="icon-"], .icon-box.icon-circle.icon-fill:hover .icon-block [class^="icon-"], .counter-box .count-icon, .counter-style-1 .counter-box h3, .icon-type, .icon-type.it-main-color, .widget-twitter-box .tweet ul li a, .shop-single-page .review_response .review-title .shop-star-rating li.full-star,
+.comment_response .media h6 a, .comment_response .media_cloud a.reply_link, .tabpanel-style-1 .nav-tabs > li.active > a:focus, .tabpanel-style-1 .nav-tabs > li.active > a:hover, .tabpanel-style-3 .nav-tabs > li.active > a, .tabpanel-style-3 .nav-tabs > li.active > a:focus, .tabpanel-style-3 .nav-tabs > li.active > a:hover, .dropcap.dropcap-style-1, .btn-default-reverse,
+.icon-box.icon-square.icon-fill:hover .icon-block [class^="icon-"], .icon-box.icon-circle.icon-fill:hover .icon-block [class^="icon-"], .counter-box .count-icon, .counter-style-1 .counter-box h3, .icon-type, .icon-type.it-main-color, .widget-twitter-box .tweet ul li a, .shop-single-page .review_response .review-title .shop-star-rating li.full-star,
+.review_response .media h6 a, .review_response .media_cloud .shop-star-rating li.full-star, .rating-container .rating-stars, .form-contact small, ul.icon-list li a:hover, ul.icon-list li a:active, ul.icon-list li a:focus, .checkout-sum, .checkout-table td a:hover, .checkout-box a,
+.user-profile-list ul li a:hover, a.profile-active, .user-profile-content h2, .forum-content-header span a, .recent-work-content a:hover, .recent-work-image-content a:hover, .contact-overlay-map .maximize-form:hover, .hero-slier-nav-content:hover [class^="icon-"], .selected .hero-slier-nav-content [class^="icon-"], .team-social a:hover
+, .team-name h5 a:hover, .clients-slick-nav .slick-custom-next:hover, .clients-slick-nav .slick-custom-prev:hover, .services-pricing-icon [class^="icon-"],
+.brand [class^="icon-"], .content-divider-colored [class^="icon-"], .divider-content h1 span, .divider-content h2 span, .divider-content h3 span, .intro-page-content a:hover, .image-box-content a:hover, .icon-type.it-main-color [class^="icon-"], .icon-type-2:hover p, .icon-type-2:hover span.icon-type-2-icon, .heading-container .head-colored, ul.home-6-list li h4 [class^="icon-"], .icon-box-2-effect-1:hover .icon-block-2, .icon-box-2-effect-3-reverse:hover .icon-block-2, .icon-box-2-effect-4:hover .icon-block-2, .icon-box-2-effect-4-reverse .icon-block-2,
+.icon-box-2-effect-5:hover .icon-block-2, .simple-icon-lightbg [class^="icon-"], .accordion-style-1 .panel-default > .panel-heading .panel-title a:hover, .panel-body ul li a:hover, .colored, .ss-price, .tabpanel-style-7 .nav-tabs > li.active > a,
+.tabpanel-style-6 .nav-tabs > li > a, .tabpanel-style-8 .nav-tabs > li.active > a, .tp_caption_big span, ul.icon-box-simple li:hover a, .testimonials-slick-nav .slick-testimonial-prev:hover [class^="icon-"],
+.testimonials-slick-nav .slick-testimonial-next:hover [class^="icon-"], .clients-slick-nav .slick-clients-prev:hover [class^="icon-"], .clients-slick-nav .slick-clients-next:hover [class^="icon-"], .blockquote-author p, .testimonial-author, .latest-post-content h1 a:hover, .post-by a:hover, .latest-post-content .read-more-link, .blog-horizontal .bh-content h3 a:hover, .blog-horizontal .bh-content .bh-details a:hover, .blog-horizontal .bh-content .bh-details a:hover span, a.bsp-title:hover, .sidebar-blog-post-list li .sbp-title:hover, .navbar-nav > li.active, .navbar-nav > li.active:hover, a.idb-social:hover, a.idb-social:hover span, a.idb-price, span.pts-raised, .bsp-social a:hover, .bsp-social a [class^="icon-"]:hover, a.bsp-more:hover, .blog-list > article .blog-image-box .video-play-icon:focus [class^="icon-"], .blog-list > article .blog-post-2 .bp2-desc h4 a:focus,
+.blog-list > article .blog-post-2 .bp2-desc .blog-desc-details a:hover, .blog-list > article .blog-post-2 .bp2-desc .blog-desc-details a:focus, .gallery-block .gallery-box .gallery-meta a:hover, .gallery-block .gallery-box .gallery-meta a:focus, .tp-caption a, .tp-caption a:hover, .cd-timeline-inner-content a:hover, .testimonial-box .testimonial-author span, .fic-date a:hover, .forum-inner-content h1 a:hover, .user-profile-desc a:hover, .cd-timeline-navigation a:hover::after, .login-form .login-input-box [class^="icon-"], .icon-input-box [class^="icon-"], ul.icon-list.il-no-border.il-main-bg li [class^="icon-"], ul.bar-chart-graph li, ul.line-graph li, ul.donut-graph li, .tp-caption.Creative-SubTitle, .Creative-SubTitle, .tp-caption.vlt-hero-rotating, .pagination > li > a:focus, .pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover, .pager li > a, ul.recent-post-widget .rp-post a:hover, .loader-5, .loader-7, .loader-9, .loader-2, .loader-4 {
+  color: #0eb1eb !important;
+}
+
+.tp-caption .btn-default, .btn-default, .flex-control-paging li a.flex-active, .flexslider.clients .flex-control-paging li a.flex-active, .pagination-box .pager li a, .contact-info-3, .team-social a:hover, .contact-title-one h3:after, .home-title-one h3:after, #login-form .login-input:active, #login-form .login-input:focus
+, .load-more-wrapper a.load-more-btn:hover, #register-form .register-input:active, #register-form .register-input:focus, .dropcap.dropcap-style-1, .dropcap.dropcap-style-2, .alert-default, blockquote, .tp-caption .btn-default, .btn-default, .btn-default-reverse, .icon-box.icon-square .icon-block, .icon-box.icon-circle .icon-block,
+.icon-type.it-main-color, .icon-type.it-main-color:hover, .icon-type.it-main-color:focus, .icon-type.it-main-color-reverse, .icon-type.it-main-color-reverse:hover, .icon-type.it-main-color-reverse:focus, .add-to-cart-form .count-input .count-plus:hover, .add-to-cart-form .count-input .count-minus:hover, #reviewmodal .modal-header, .job-left-title h3, .pricing-table-container.special-price-table
+, .clients-slick-nav .slick-custom-next:hover, .clients-slick-nav .slick-custom-prev:hover, .tabpanel-style-8 .nav-tabs > li.active, a.btn-default.btn-animation-icon-box, .btn-default.btn-animation-icon-box:hover,
+.btn-default.btn-animation-icon-box:focus, .btn-default.btn-animation-icon-box:active, .tp-caption a.btn-default.btn-animation-icon-box, .tp-caption .btn-default.btn-animation-icon-box:hover,
+.tp-caption .btn-default.btn-animation-icon-box:focus, .tp-caption .btn-default.btn-animation-icon-box:active, .testimonials-slick-nav .slick-testimonial-prev:hover,
+.testimonials-slick-nav .slick-testimonial-next:hover, .clients-slick-nav .slick-clients-prev:hover, .clients-slick-nav .slick-clients-next:hover, .bsp-image, .blog-list > article.default-post .blog-desc, .testimonial-single li.slick-active button::before,
+.slick-dots li.slick-active button:before, .blog-list > article.default-post .blog-post-2 .bp2-desc, .blog-list > article .blog-desc .btn-breadmore:hover, .blog-list > article .blog-desc .btn-breadmore:focus, .timeline-status.timeline-active:before,
+.cd-horizontal-timeline .events a.older-event::after, .cd-horizontal-timeline .events a.selected::after, .no-touch .cd-horizontal-timeline .events a:hover::after, .no-touch .cd-timeline-navigation a:hover, .cd-bg-image:hover .video-play-icon [class^="icon-"], .cd-timeline-navigation a:hover, .tabpanel-style-1 .nav-tabs > li.active > a, .tabpanel-style-1 .nav-tabs > li.active > a:focus, .tabpanel-style-1 .nav-tabs > li.active > a:hover, .login-form input:focus, .pinpulse, .open > .dropdown-toggle.btn-default, .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover, .pagination > .active > span, .pagination > .active > span:focus, .pagination > .active > span:hover, .tabpanel-style-7.shop-single-tabpanel .nav-tabs > li.active {
+  border-color: #0eb1eb;
+}
+
+.table-style-1 thead tr th, .table-style-1 tbody tr:last-child th, .table-style-1 tbody tr:last-child td, .table-withmaincolor thead tr th, .clients-title-border h3, .cd-slider-nav li:hover, .selected,
+.job-form input:focus, .job-form select:focus, .job-form textarea:focus, .form-contact input:focus, .form-contact select:focus, .form-contact textarea:focus, .form-contact input:focus, .icon-type-2:hover p, .icon-type-2:hover span.icon-type-2-icon, .icon-type-2:hover span.icon-type-2-icon [class^="icon-"], .activeFilter {
+  border-color: #0eb1eb;
+}
+
+.tabpanel-style-4 .nav-tabs > li.active, .tabpanel-style-4 .nav-tabs > li.active > span, .tabpanel-style-5 .nav-tabs > li.active, .tabpanel-style-5 .nav-tabs > li.active > span {
+  border-color: #0eb1eb transparent;
+}
+
+.btn-rounded, .form-control, .pagination-box .pager li a, .portfolio_overlay a.portfolio_zoom, .portfolio_overlay a.portfolio_link,
+.overlay-animation-2 .overlay_box a.image_zoom, .overlay-animation-2 .overlay_box a.image_link, .overlay-animation-2 .overlay_box a.video_zoom, a.home-breadcrumb,
+.overlay-animation-1 .overlay_box a.image_zoom, .overlay-animation-1 .overlay_box a.image_link,
+ul.widget-ul li a span, ul.widget-social li a, .tags-cloud-list li a, .team-2 .team-social a, .team-3 .team-social a,
+.team-social a, .benefits-box h1 {
+  border-radius: 100px;
+}
+
+ul.thumbs li a, ul.thumbs li a img, ul.thumbs li a:before, .widget-dribbble-box .shots li a, .widget-dribbble-box .shots li a img, .instagram-widget a, .instagram-widget a img, .instagram-widget a:hover:before,
+.instagram-widget a:hover:after, .pricing-table-2-column, .pricing-table-3-column, .pricing-table-4 {
+  border-radius: 4px;
+}
+
+.icon-box-2-effect-3 .icon-block-2 {
+  box-shadow: 0 0 0 3px #0eb1eb;
+}
+
+.icon-box-2-effect-4 .icon-block-2, .icon-box-2-effect-5 .icon-block-2, .icon-box-2-effect-5:hover .icon-block-2, .icon-box-2-effect-1 .icon-block-2:after,
+.icon-box-2-effect-2 .icon-block-2:after {
+  box-shadow: 0 0 0 4px #0eb1eb;
+}
+
+.icon-box-2-effect-6 .icon-block-2:after {
+  box-shadow: 0 0 0 2px #0eb1eb;
+}
+
+.empty-cart:after {
+  border-bottom-color: #0eb1eb;
+}
+
+.btn-default-reverse:hover, .btn-default-reverse:focus {
+  background-color: #0eb1eb !important;
+  border-color: #0eb1eb !important;
+}
+
+.tp-caption .btn-default.active, .btn-default.active, .tp-caption .btn-default.focus, .btn-default.focus, .tp-caption .btn-default:active, .btn-default:active, .tp-caption .btn-default:focus, .btn-default:focus, .tp-caption .btn-default:hover, .btn-default:hover {
+  background-color: #04a4de !important;
+  border-color: #04a4de !important;
+}
+
+.metis .tp-tab.selected .tp-tab-divider {
+  border-right-color: #0eb1eb;
+}
+
+#header.header-white .navbar-2 .navbar-nav > li > a:before,
+#header.header-dark .navbar-2 .navbar-nav > li > a:before,
+#header.header-white-transparent .navbar-2 .navbar-nav > li > a:before,
+#header.header-dark-transparent .navbar-2 .navbar-nav > li > a:before,
+#header.header-white-sticky .navbar-2 .navbar-nav > li > a:before,
+#header.header-dark-sticky .navbar-2 .navbar-nav > li > a:before,
+#header.header-white-transparent-sticky .navbar-2 .navbar-nav > li > a:before,
+#header.header-dark-transparent-sticky .navbar-2 .navbar-nav > li > a:before {
+  background-color: #0eb1eb;
+}
+
+#header.header-main-color .navbar-2 .navbar-nav > li > a:before,
+#header.header-main-color-sticky .navbar-2 .navbar-nav > li > a:before,
+span.latest-post-month, .main-color-dropdown .dropdown-menu .dropdown-menu, .main-color-dropdown .dropdown-menu .dropdown-menu .dropdown-menu {
+  background-color: #04a4de;
+}
+
+#header.header-dark .navbar-2 .search-navbar .btn-search:hover,
+#header.header-dark .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-white-transparent .navbar-2 .search-navbar .btn-search:hover,
+#header.header-white-transparent .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-dark-transparent .navbar-2 .search-navbar .btn-search:hover,
+#header.header-dark-transparent .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-dark-sticky.header-sticky .navbar-2 .search-navbar .btn-search:hover,
+#header.header-dark-sticky.header-sticky .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-white-transparent-sticky.header-sticky .navbar-2 .search-navbar .btn-search:hover,
+#header.header-white-transparent-sticky.header-sticky .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-dark-transparent-sticky.header-sticky .navbar-2 .search-navbar .btn-search:hover,
+#header.header-dark-transparent-sticky.header-sticky .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-main-color .navbar-2 .search-navbar .btn-search:hover,
+#header.header-main-color .navbar-2 .search-navbar .btn-cart:hover,
+#header.header-main-color-sticky.header-sticky .navbar-2 .search-navbar .btn-search:hover,
+#header.header-main-color-sticky.header-sticky .navbar-2 .search-navbar .btn-cart:hover {
+  background: #04a4de;
+  border-color: #04a4de;
+}
+
+#header.header-main-color .navbar-2 .navbar-nav > li.active,
+#header.main-color-nav .navbar-2 .navbar-nav > .active > a {
+  background-color: #04a4de;
+}
+
+.text_holder, .standard_hover .portfolio_overlay, .overlay-animation-1 .overlay_box, .overlay-animation-2 .overlay_box, .flip-hover .flip-box .content-box, .team-8 .team-image .overlay-team-box, .team-9 .team-image .overlay-team-box, .portfolio-animation-slide .sliding-content {
+  background-color: rgba(14, 177, 235, 0.9);
+}
+
+.intro-block .overlay, ul.thumbs li a:before, .widget-dribbble-box .shots li a:before, .sidebar-shop-products-list .image-thumb:before, .cart-shop-products-list .image-thumb:before, .overlay-bg.colored,
+.instagram-widget a:before, .overlay-bg.background-1 {
+  background-color: rgba(14, 177, 235, 0.75);
+}
+
+.forum-reply-signin {
+  background: rgba(14, 177, 235, 0.92);
+}
+
+.table-style-5.table-withmaincolor tbody tr td:nth-child(2), .team-2 .overlay-team-box, .team-6 .overlay-team-box, .team-7 .overlay-team-box,
+.table-style-6.table-withmaincolor.table-striped > tbody > tr:nth-of-type(odd), .contact-overlay-map .overlay-map-background,
+.table-style-7.table-withmaincolor.table-striped > tbody > tr:nth-of-type(odd),
+.table-style-7.table-withmaincolor tbody tr th,
+.fc-bgevent, #particles-js.background-1 {
+  background-color: rgba(14, 177, 235, 0.6) !important;
+}
+
+.widget-dribbble-box .shots li a:hover:before, .dribbble-box .shots li a:hover:before, .instagram-widget a:hover:before {
+  background-color: rgba(14, 177, 235, 0.85);
+}
+
+.cart-shop-products h3, .cart-shop-products .total-bottom-cart .total-cart-price span, .cart-shop-products-list li .csp-price, .sidebar-shop-products-list li .ssp-price,
+.sidebar-shop-products-list li .shop-star-rating li.full-star, .shop-list .shop-product .shop-star-rating li.full-star, ul.shop-star-rating li.full-star {
+  color: #fe403b;
+}
+
+.shop-list .shop-product .shop-ribbon, .ui-slider-horizontal .ui-slider-range, .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-primary, .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-primary {
+  background: #fe403b;
+}
+
+.price-filter-desc .btn {
+  background-color: #fe403b;
+  border-color: #fe403b;
+}
+
+.btn-default.btn-invert-animation:before {
+  box-shadow: inset 0 0 0 50px #0eb1eb;
+}
+
+.btn-default.btn-invert-animation:hover:before {
+  box-shadow: inset 0 0 0 0 #0eb1eb !important;
+}
+
+.btn-default-reverse.btn-invert-animation:before {
+  box-shadow: inset 0 0 0 0 #0eb1eb;
+}
+
+.btn-default-reverse.btn-invert-animation:hover:before {
+  box-shadow: inset 0 0 0 50px #0eb1eb !important;
+}
+
+.btn-primary {
+  background: #1132bd;
+  border-color: #1132bd;
+}
+
+.btn-primary:hover, .open > .dropdown-toggle.btn-primary, .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus {
+  background: #3c1a90;
+  border-color: #3c1a90;
+}
+
+.btn-primary-reverse {
+  color: #1132bd;
+  border-color: #1132bd;
+}
+
+.btn-primary-reverse:hover {
+  background-color: #1132bd !important;
+  border-color: #1132bd !important;
+}
+
+.btn-primary.btn-invert-animation:before {
+  box-shadow: inset 0 0 0 50px #1132bd;
+}
+
+.btn-primary.btn-invert-animation:hover:before {
+  box-shadow: inset 0 0 0 0 #1132bd !important;
+}
+
+.btn-primary-reverse.btn-invert-animation:before {
+  box-shadow: inset 0 0 0 0 #1132bd !important;
+}
+
+.btn-primary-reverse.btn-invert-animation:hover:before {
+  box-shadow: inset 0 0 0 50px #1132bd !important;
+}
+
+.blog-list > article.default-post .blog-post-2 .bp2-category:before {
+  border-color: transparent #0eb1eb;
+}
+
+.blog-list > article.default-post .blog-post-2 .bp2-category:after {
+  border-color: transparent #0eb1eb;
+}
+
+.blog-list > article.primary-post .blog-post-2 .bp2-category {
+  background: #1132bd;
+}
+
+.blog-list > article.primary-post .blog-post-2 .bp2-category:before {
+  border-color: transparent #1132bd;
+}
+
+.blog-list > article.primary-post .blog-post-2 .bp2-category:after {
+  border-color: transparent #1132bd;
+}
+
+.blog-list > article.primary-post .blog-desc {
+  border-top-color: #1132bd;
+}
+
+.blog-list > article.primary-post .blog-post-2 .bp2-desc {
+  border-bottom-color: #1132bd;
+}
+
+.btn-default.btn-animation-icon-box .btn-text, .btn-default.btn-animation-icon-box:hover .btn-text,
+.btn-default.btn-animation-icon-box:focus .btn-text, .btn-default.btn-animation-icon-box:active .btn-text {
+  background: #0eb1eb;
+}
+
+.btn-default.btn-animation-icon-box .btn-icon, .btn-default.btn-animation-icon-box:hover .btn-icon,
+.btn-default.btn-animation-icon-box:focus .btn-icon, .btn-default.btn-animation-icon-box:active .btn-icon {
+  background: #197d3c;
+  border-color: #197d3c;
+}
+
+.btn-default-reverse.btn-animation-icon-box .btn-text, .btn-default-reverse.btn-animation-icon-box:hover .btn-text,
+.btn-default-reverse.btn-animation-icon-box:focus .btn-text, .btn-default-reverse.btn-animation-icon-box:active .btn-text {
+  color: #0eb1eb;
+}
+
+.btn-default-reverse.btn-animation-icon-box .btn-icon, .btn-default-reverse.btn-animation-icon-box:hover .btn-icon,
+.btn-default-reverse.btn-animation-icon-box:focus .btn-icon, .btn-default-reverse.btn-animation-icon-box:active .btn-icon {
+  border-color: #0eb1eb;
+  color: #0eb1eb;
+}
+
+.btn-primary.btn-animation-icon-box, .btn-primary.btn-animation-icon-box:hover,
+.btn-primary.btn-animation-icon-box:focus, .btn-primary.btn-animation-icon-box:active,
+.tp-caption .btn-primary.btn-animation-icon-box, .tp-caption .btn-primary.btn-animation-icon-box:hover,
+.tp-caption .btn-primary.btn-animation-icon-box:focus, .tp-caption .btn-primary.btn-animation-icon-box:active {
+  border-color: #1132bd;
+}
+
+.btn-primary.btn-animation-icon-box .btn-text, .btn-primary.btn-animation-icon-box:hover .btn-text,
+.btn-primary.btn-animation-icon-box:focus .btn-text, .primary.btn-animation-icon-box:active .btn-text {
+  background: #1132bd;
+}
+
+.btn-primary.btn-animation-icon-box .btn-icon, .btn-primary.btn-animation-icon-box:hover .btn-icon,
+.btn-primary.btn-animation-icon-box:focus .btn-icon, .btn-primary.btn-animation-icon-box:active .btn-icon {
+  background: #3c1a90;
+  border-color: #3c1a90;
+}
+
+.btn-primary-reverse.btn-animation-icon-box .btn-text, .btn-primary-reverse.btn-animation-icon-box:hover .btn-text,
+.btn-primary-reverse.btn-animation-icon-box:focus .btn-text, .btn-primary-reverse.btn-animation-icon-box:active .btn-text {
+  color: #1132bd;
+}
+
+.btn-primary-reverse.btn-animation-icon-box .btn-icon, .btn-primary-reverse.btn-animation-icon-box:hover .btn-icon,
+.btn-primary-reverse.btn-animation-icon-box:focus .btn-icon, .btn-primary-reverse.btn-animation-icon-box:active .btn-icon {
+  border-color: #1132bd;
+  color: #1132bd;
+}
+
+.border-background-1 {
+  border-color: #0eb1eb;
+}
+
+.border-background-2 {
+  border-color: #323a44;
+}
+
+.border-background-3 {
+  border-color: #fe403b;
+}
+
+.blog-list > article .featured-posts-slider .fp-desc {
+  background: rgba(14, 177, 235, 0.9);
+}
+
+.icon-box.icon-circle .icon-block, .icon-box.icon-circle .icon-block span, .icon-block-2, .icon-block-2:after,
+.simple-icon-image img, .icon-image-overlay, .simple-icon-icon, .link-rounded-icon, .slider-slick-slide a [class^="icon-"], .flexslider.clients .flex-control-paging li a, .testimonial-single .slick-prev,
+.testimonial-single .slick-next, .testimonial-single .slick-dots li button:before, .slick-dots li button:before, .testimonials-slick-nav .slick-testimonial-prev,
+.testimonials-slick-nav .slick-testimonial-next, .block-content-wrapper h1 {
+  border-radius: 50px;
+}
+
+.loader-6 {
+  background: #0eb1eb;
+  background: -moz-linear-gradient(left, #0eb1eb 10%, rgba(71, 104, 216, 0) 42%);
+  background: -webkit-linear-gradient(left, #0eb1eb 10%, rgba(71, 104, 216, 0) 42%);
+  background: -o-linear-gradient(left, #0eb1eb 10%, rgba(71, 104, 216, 0) 42%);
+  background: -ms-linear-gradient(left, #0eb1eb 10%, rgba(71, 104, 216, 0) 42%);
+  background: linear-gradient(to right, #0eb1eb 10%, rgba(71, 104, 216, 0) 42%);
+}
+
+@-webkit-keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #0eb1eb, 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.5), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.7), 1.8em -1.8em 0 0em #0eb1eb, 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.5), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.7), 2.5em 0em 0 0em #0eb1eb, 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.5), 2.5em 0em 0 0em rgba(71, 104, 216, 0.7), 1.75em 1.75em 0 0em #0eb1eb, 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.5), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.7), 0em 2.5em 0 0em #0eb1eb, -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.5), 0em 2.5em 0 0em rgba(71, 104, 216, 0.7), -1.8em 1.8em 0 0em #0eb1eb, -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.5), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.7), -2.6em 0em 0 0em #0eb1eb, -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.5), -2.6em 0em 0 0em rgba(71, 104, 216, 0.7), -1.8em -1.8em 0 0em #0eb1eb;
+  }
+}
+@keyframes load5 {
+  0%,
+  100% {
+    box-shadow: 0em -2.6em 0em 0em #0eb1eb, 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.5), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.7), 1.8em -1.8em 0 0em #0eb1eb, 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.5);
+  }
+  25% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.5), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.7), 2.5em 0em 0 0em #0eb1eb, 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  37.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.5), 2.5em 0em 0 0em rgba(71, 104, 216, 0.7), 1.75em 1.75em 0 0em #0eb1eb, 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  50% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.5), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.7), 0em 2.5em 0 0em #0eb1eb, -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.2), -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  62.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.5), 0em 2.5em 0 0em rgba(71, 104, 216, 0.7), -1.8em 1.8em 0 0em #0eb1eb, -2.6em 0em 0 0em rgba(71, 104, 216, 0.2), -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  75% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.5), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.7), -2.6em 0em 0 0em #0eb1eb, -1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2);
+  }
+  87.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(71, 104, 216, 0.2), 1.8em -1.8em 0 0em rgba(71, 104, 216, 0.2), 2.5em 0em 0 0em rgba(71, 104, 216, 0.2), 1.75em 1.75em 0 0em rgba(71, 104, 216, 0.2), 0em 2.5em 0 0em rgba(71, 104, 216, 0.2), -1.8em 1.8em 0 0em rgba(71, 104, 216, 0.5), -2.6em 0em 0 0em rgba(71, 104, 216, 0.7), -1.8em -1.8em 0 0em #0eb1eb;
+  }
+}
+.loader-3 {
+  border-top-color: rgba(71, 104, 216, 0.2);
+  border-right-color: rgba(71, 104, 216, 0.2);
+  border-bottom-color: rgba(71, 104, 216, 0.2);
+  border-left-color: #0eb1eb;
+}
+
+/*** Mobile Navigation ***/
+.offscreen-container, .navbar-toggle,
+.navbar-toggle:before {
+  background-color: #0eb1eb;
+}
+
+.nav-accordion-section-title, .nav-accordion-section-title:focus, .nav-accordion-section-title:active,
+.navbar-toggle {
+  color: #fff;
+}
+
+.nav-accordion-section-content ul li a {
+  color: rgba(255, 255, 255, 0.65);
+}
+

@@ -1,0 +1,45 @@
+﻿@model cedix.io.Models.AccountViewModels.RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+ <section class="clearfix section" style="padding-top: 10px">
+    <div class="container-fluid">
+        <div class="centered">
+            <h1>Create a new account</h1>
+            <hr class="separator-accent" style="margin-bottom: 10px">
+        </div>
+        <div class="col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 col-xs-12 fullheight medium-top-padding medium-bottom-padding medium-right-padding medium-left-padding">
+            <div>
+                <div class="login-form-box">
+                    <form asp-route-returnurl="@ViewData["ReturnUrl"]" method="post" class="login-form clearfix" role="form" data-toggle="validator">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="login-input-box">
+                                 <span class="icon-user-male"></span> <input asp-for="Email" placeholder="Email..." required/>
+                                <span asp-validation-for="Email" class="help-block with-errors"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="login-input-box"> <span class="icon-lock"></span> 
+                                <input  asp-for="Password"  placeholder="Password..." required/>
+                                <span class="help-block with-errors" asp-validation-for="Password" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="login-input-box"> <span class="icon-lock"></span> 
+                                <input  asp-for="ConfirmPassword"  placeholder="Confirm Password..." required/>
+                                <span class="help-block with-errors" asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <p> <button type="submit" class="btn btn-xlg btn-success ">Login</button> 
+                                  </p>
+                        </div>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>s
+    </div>
+ </section>

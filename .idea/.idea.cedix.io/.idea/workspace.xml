@@ -1,0 +1,1745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="00cd25e2-b67c-4afb-8da7-e10aa543bc6d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cedix.io/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cedix.io/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cedix.io/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cedix.io/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cedix.io/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.cedix.io/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/ApplicationLogging.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Constants.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Controllers/AccountController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Controllers/BtcController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Controllers/ManageController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Data/Migrations/00000000000000_CreateIdentitySchema.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Extensions/EmailSenderExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Extensions/UrlHelperExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Logger.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/ExternalLoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/ForgotPasswordViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/LoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/LoginWith2faViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/LoginWithRecoveryCodeViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/RegisterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/AccountViewModels/ResetPasswordViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ApplicationUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/BtcViewBuySellModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/CoinBuyerViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/CoinSellerViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/CoinBuyer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/CoinModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/CoinSeller.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/Country.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/MyPaymentMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethodFields.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/DbModels/UserRating.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/Extensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/HttpHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/ChangePasswordViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/EnableAuthenticatorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/ExternalLoginsViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/IndexViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/RemoveLoginViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/SetPasswordViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/ShowRecoveryCodesViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/ManageViewModels/TwoFactorAuthenticationViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/SecurePasswordHasher.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/StringExtensions.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Models/Utils.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/ScaffoldingReadme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Services/EmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Services/IEmailSender.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/SettingsData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/AccessDenied.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/ConfirmEmail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/ExternalLogin.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/ForgotPassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/ForgotPasswordConfirmation.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/Lockout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/LoginWith2fa.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/LoginWithRecoveryCode.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/ResetPassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/ResetPasswordConfirmation.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Account/SignedOut.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Btc/Buy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Btc/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Btc/Sell.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Home/About.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Home/Contact.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/ChangePassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/Disable2fa.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/EnableAuthenticator.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/ExternalLogins.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/GenerateRecoveryCodes.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/ManageNavPages.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/ResetAuthenticator.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/SetPassword.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/ShowRecoveryCodes.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/TwoFactorAuthentication.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/_ManageNav.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/_StatusMessage.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Manage/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_Footer.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_Head.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_Header.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_Layout_bck.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_Scripts.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/app.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/cedix.io.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/log4net.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/logs/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.0/cedix.io.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.0/cedix.io.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.0/cedix.io.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/AccessDenied.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/ConfirmEmail.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/ExternalLogin.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/ForgotPassword.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/ForgotPasswordConfirmation.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/Lockout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/Login.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/LoginWith2fa.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/LoginWithRecoveryCode.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/Register.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/ResetPassword.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/ResetPasswordConfirmation.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Account/SignedOut.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Btc/Buy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Btc/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Btc/Sell.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/ChangePassword.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/Disable2fa.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/EnableAuthenticator.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/ExternalLogins.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/GenerateRecoveryCodes.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/ResetAuthenticator.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/SetPassword.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/ShowRecoveryCodes.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/TwoFactorAuthentication.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/_ManageNav.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/_StatusMessage.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Manage/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Footer.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Head.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Header.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout_bck.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_LoginPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Scripts.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/UserSecretsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/Debug/netcoreapp2.1/cedix.io.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/cedix.io.csproj.codegeneration.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/cedix.io.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/cedix.io.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/cedix.io.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/css/colors/main-color.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/css/site.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/icon-fonts/Simple-Line-Icons-Pro.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/icon-fonts/Simple-Line-Icons-Pro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/icon-fonts/Simple-Line-Icons-Pro.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/icon-fonts/Simple-Line-Icons-Pro.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/icon-fonts/icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/icon-fonts/icons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/images/banner1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/images/banner2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/images/banner3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/js/jquery.countdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/js/site.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/js/social-widgets-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/js/theme.functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/bootstrap/dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation-unobtrusive/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery/.bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/3Dprogressbars/component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/3Dprogressbars/custom-bars.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/accordionSlider/accordion-slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/accordionSlider/jquery.accordionSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/analytics.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/animate/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/animated-headline/css/animated-headline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/animated-headline/js/animated-headline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/assets/timer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/css/jquery.bdt.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/css/jquery.bdt.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/js/jquery.bdt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/js/jquery.bdt.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-data-table/js/jquery.sortelements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-validator/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-validator/js/validator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap-validator/js/validator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrap/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrapSelect/bootstrap-select.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrapSelect/bootstrap-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrapSwitch/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/bootstrapSwitch/bootstrap-switch.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/cardslider/cardslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/cardslider/jquery.cardslider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/countto/jquery.countTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/easing/jquery.easing.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.base16_flat.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.confetti.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.dark.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.grapefruit.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.material_blue.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.material_green.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.material_orange.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.material_red.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flatpickr/flatpickr.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flexslider/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flexslider/jquery.flexslider-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/flip/jquery.flip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font/revicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font/revicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font/revicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/font/revicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fs.selecter/jquery.fs.selecter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fs.selecter/jquery.fs.selecter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fs.selecter/jquery.fs.selecter.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fs.selecter/jquery.fs.selecter.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fullCalendar/fullcalendar.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fullCalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fullCalendar/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fullpage/jquery.fullPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fullpage/jquery.fullPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/fullpage/jquery.fullPage.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/gmap/map.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/headhesive/headhesive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/hero-slider/hero.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/hero-slider/heroslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/horizontalTimeline/horizontal-timeline.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/hoverIntent/jquery.hoverIntent.minified.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/hovercss/hover-min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/hoverdir/jquery.hoverdir.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/css/ion.rangeSlider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/css/ion.rangeSlider.skinFlat.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/css/ion.rangeSlider.skinHTML5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/css/ion.rangeSlider.skinModern.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/css/ion.rangeSlider.skinNice.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/css/ion.rangeSlider.skinSimple.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/img/sprite-skin-flat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/img/sprite-skin-modern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/img/sprite-skin-nice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/img/sprite-skin-simple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/ion.rangeSlider.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ion-rangeSlider/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ionicons/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ionicons/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ionicons/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ionicons/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/ionicons/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/isotope/isotope.pkgd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jflickrfeed/jflickrfeed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jflickrfeed/jflickrfeed.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jquery.idle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jquery/jquery-1.12.4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jquery/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jquery/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jquery/jquery-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/jribbble/jribbble.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/knockout-3.3.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/css/blank.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/css/layerslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/js/greensock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/js/layerslider.kreaturamedia.jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/js/layerslider.transitions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark3d/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark3d/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark3d/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark3d/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlessdark3d/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight3d/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight3d/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight3d/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight3d/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/borderlesslight3d/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/carousel/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/carousel/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/carousel/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/carousel/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/darkskin/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/darkskin/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/darkskin/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/darkskin/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/default/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/default/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/default/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/default/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/defaultskin/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/defaultskin/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/defaultskin/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/defaultskin/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidth/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidth/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidth/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidth/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidthdark/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidthdark/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidthdark/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/fullwidthdark/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/glass/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/glass/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/glass/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/glass/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/glass/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/lightskin/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/lightskin/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/lightskin/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/lightskin/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/minimal/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/minimal/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/minimal/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/minimal/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/noskin/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/noskin/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/noskin/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/noskin/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/v5/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/v5/nothumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/v5/skin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/layerslider/skins/v5/skin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/maps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/materialKit/material-kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/materialKit/material.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/accordion-slider.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/animated-headline.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/audioplayer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/bootstrap-switch.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/cardslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/flexslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/heroslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/jquery.bdt.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/jquery.fs.selecter.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/jquery.fullPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/layerslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/masterslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/owl.theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/perspectiveRules.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/royalslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/star-rating.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/swipebox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/minified css plugins/swiperslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/moment/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/one-page-nav/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/parallax/jquery.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/parallax/jquery.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/plugins.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/plugins.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/processSteps/jquery.steps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/coloredbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/gridtile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/gridtile_3x3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/gridtile_3x3_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/gridtile_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/fb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/fr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/ig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/post.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/revolution_slide1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/revolution_slide2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/tw.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/vm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/wc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/assets/sources/yt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/closedhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/layers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/ares.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/dione.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/erinyen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/gyges.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/hades.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/hebe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/hephaistos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/hermes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/hesperiden.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/metis.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/persephone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/uranus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation-skins/zeus.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/navigation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/openhand.cur" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/css/settings.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/font-awesome/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/css/helper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/css/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/fonts/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/pe-icon-7-stroke/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/revicons/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/revicons/revicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/revicons/revicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/revicons/revicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/fonts/revicons/revicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.actions.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.kenburn.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.layeranimation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.migration.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.navigation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.parallax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.slideanims.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/revolution.extension.video.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.actions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.kenburn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.layeranimation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.migration.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.navigation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.parallax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.slideanims.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/extensions/source/revolution.extension.video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/source/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/source/jquery.themepunch.enablelog.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/source/jquery.themepunch.revolution.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/source/jquery.themepunch.revolution.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/js/source/jquery.themepunch.tools.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/facebook/class-facebook.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/flickr/class-flickr.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/instagram/class-instagram.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/twitter/RestApi.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/twitter/class-twitter.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/twitter/connection/Application.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/twitter/connection/ConnectionAbstract.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/twitter/connection/User.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/vimeo/class-vimeo.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/revolution-slider/php/youtube/class-youtube.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/demos/demo-jquery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/demos/demo-requirejs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/demos/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/dist/bookmarklet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/dist/selection-sharer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/dist/selection-sharer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/src/bookmarklet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/src/selection-sharer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/selection-sharer/src/selection-sharer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/smoothscroll/coypright.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/smoothscroll/smoothscroll-1.2.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/smoothscroll/smoothscroll.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/smoothscroll/smoothscroll.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/starrating/css/star-rating.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/starrating/css/star-rating.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/starrating/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/starrating/js/star-rating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/starrating/js/star-rating.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/sticky/jquery.sticky.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/css/swipebox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/css/swipebox.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/img/icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/img/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/js/jquery.swipebox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swipebox/js/jquery.swipebox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swiperslider/swiper.jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swiperslider/swiper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/swiperslider/swiperslider.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/theiastickysidebar/theia-sticky-sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/timonStepForm/css/gsi-step-indicator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/timonStepForm/css/tsf-step-form-wizard.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/timonStepForm/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/timonStepForm/js/parsley.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/timonStepForm/js/tsf-wizard-plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/api/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/api/tweet.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/api/twitteroauth/OAuth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/api/twitteroauth/twitteroauth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/tweetie.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/tweetie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/tweetie/tweetie.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/typed/typed.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/vivus/vivus.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/waypoints/jquery.waypoints.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/waypoints/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/wow/wow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/wow/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/zaccordion/jquery.zaccordion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cedix.io/wwwroot/plugins/zaccordion/jquery.zaccordion.min.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-468657665">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="9" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="config" value="1" />
+          <entry key="cs" value="98" />
+          <entry key="cshtml" value="101" />
+          <entry key="json" value="7" />
+          <entry key="sln" value="1" />
+          <entry key="txt" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="98" />
+          <entry key="Config" value="1" />
+          <entry key="JSON" value="7" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Razor" value="101" />
+          <entry key="Solution File" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="2004" />
+          <entry key="cshtml" value="583" />
+          <entry key="json" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="2004" />
+          <entry key="JSON" value="9" />
+          <entry key="Razor" value="583" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/MyPaymentMethods.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+              <folding>
+                <marker date="1539073024725" expanded="true" signature="61:296" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/BtcViewBuySellModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+              <folding>
+                <marker date="1539071352670" expanded="false" signature="6:65" ph="..." />
+                <marker date="1539071352670" expanded="true" signature="131:859" ph="{...}" />
+                <marker date="1539071352670" expanded="true" signature="277:436" ph="{...}" />
+                <marker date="1539071352670" expanded="true" signature="649:731" ph="{...}" />
+                <marker date="1539071352670" expanded="true" signature="774:853" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+              <folding>
+                <marker date="1539071352655" expanded="false" signature="6:123" ph="..." />
+                <marker date="1539071352655" expanded="true" signature="150:1371" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="179:1369" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="318:537" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="344:527" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="396:480" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="607:836" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="893:962" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="1027:1096" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="1163:1232" ph="{...}" />
+                <marker date="1539071352655" expanded="true" signature="1294:1363" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Controllers/AccountController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+              <folding>
+                <marker date="1539072795965" expanded="false" signature="6:483" ph="..." />
+                <marker date="1539072795965" expanded="true" signature="516:17248" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="619:17246" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="1079:1253" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="1438:1705" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="1879:3220" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="1972:3110" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="2003:2165" ph="/* This doesn't count login failures towards account lockout ... */" />
+                <marker date="1539072795965" expanded="true" signature="2346:2521" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="2567:2707" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="2747:2913" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="2934:3096" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="3360:3866" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="3569:3696" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="4071:5394" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="4118:4182" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="4296:4438" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="4721:4894" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="4935:5111" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="5128:5384" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="5526:5947" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="5734:5861" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="6153:7391" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="6200:6264" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="6378:6505" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="6714:6899" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="6935:7111" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="7128:7381" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="7474:7521" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="7628:7722" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="7902:9038" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="7995:8927" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="8223:8878" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="9143:9343" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="9508:9859" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="10018:11440" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="10065:10228" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="10331:10415" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="10703:10882" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="10918:11004" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="11021:11430" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="11642:12874" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="11688:12761" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="11900:12053" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="12253:12712" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="12388:12694" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="13000:13535" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="13058:13165" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="13260:13380" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="13625:13672" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="13839:15008" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="13885:14897" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="14063:14265" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="14283:14442" ph="/* For more information on how to enable account confirmation and password reset please ... */" />
+                <marker date="1539072795965" expanded="true" signature="15110:15157" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="15264:15537" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="15304:15427" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="15702:16385" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="15749:15813" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="15916:16081" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="16213:16317" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="16486:16533" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="16597:16644" ph="{...}" />
+                <marker date="1539072795965" expanded="false" signature="16654:17240" ph="Helpers" />
+                <marker date="1539072795965" expanded="true" signature="16724:16896" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="16783:16886" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="16961:17220" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="17014:17086" ph="{...}" />
+                <marker date="1539072795965" expanded="true" signature="17103:17210" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-160">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <marker date="1539123423328" expanded="true" signature="6:354" ph="..." />
+                <marker date="1539123423328" expanded="true" signature="374:3942" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="401:3940" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="460:523" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="746:3036" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="1104:1419" ph="/* services.AddIdentity&lt;Models.Account, IdentityRole&gt;(options =&gt; ... */" />
+                <marker date="1539123423328" expanded="true" signature="1479:2222" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="2284:2885" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="2466:2566" ph="/* If the LoginPath isn't set, ASP.NET Core defaults ... */" />
+                <marker date="1539123423328" expanded="true" signature="2637:2751" ph="/* If the AccessDeniedPath isn't set, ASP.NET Core defaults ... */" />
+                <marker date="1539123423328" expanded="true" signature="3253:3934" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="3300:3461" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="3478:3562" ph="{...}" />
+                <marker date="1539123423328" expanded="true" signature="3772:3922" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethod.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding>
+                <marker date="1538608109796" expanded="true" signature="25:199" ph="{...}" />
+                <marker date="1538608109796" expanded="true" signature="58:197" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethodFields.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1538608665524" expanded="true" signature="64:253" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/UserRating.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1539044474525" expanded="true" signature="64:276" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/CoinBuyerViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding>
+                <marker date="1539044247541" expanded="true" signature="63:468" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinSeller.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1539073024729" expanded="true" signature="79:445" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Register</find>
+      <find>Applicat</find>
+      <find>/website</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Layout_bck.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Head.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Header.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Footer.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Scripts.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/Utils.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/HttpHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Controllers/BtcController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/26253E62-F175-49F5-BAB2-BDC919011F56/33/6a92d91f/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Btc/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/SettingsData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Btc/Buy.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F87AB8DF-203C-4900-869F-EE5EDFC1FC21/7/MySqlConnection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Btc/Sell.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Constants.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/Country.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/CoinBuyerViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/ManageViewModels/ChangePasswordViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/UserRating.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethodFields.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/CoinSellerViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/MyPaymentMethods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Services/EmailSender.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD89B27F-93D1-49CE-931D-9A238195A24B/4c/f79a100d/IdentityUser.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/log4net.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Extensions/EmailSenderExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Extensions/UrlHelperExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Controllers/AccountController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Data/Migrations/ApplicationDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/ManageViewModels/IndexViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/ForgotPasswordConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/ResetPasswordConfirmation.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/LoginWithRecoveryCode.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/ForgotPassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/ResetPassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/ExternalLogin.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/LoginWith2fa.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/ConfirmEmail.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Controllers/ManageController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/AccessDenied.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/SignedOut.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/Register.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/Lockout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Account/Login.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/AccountViewModels/ForgotPasswordViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/AccountViewModels/ExternalLoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/AccountViewModels/LoginWith2faViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/AccountViewModels/LoginViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/TwoFactorAuthentication.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/EnableAuthenticator.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/ApplicationUser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/ShowRecoveryCodes.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/ExternalLogins.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95960AC7-4B50-4869-807C-E444C9B64A1F/77/26e49dd7/RazorPage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/BtcViewBuySellModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinBuyer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinSeller.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/ChangePassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/_StatusMessage.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Logger.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/ApplicationLogging.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/SetPassword.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/_ManageNav.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E8D487F6-B0F0-44E7-BE59-97B90CDF8FD8/ad/75e0d201/UserManager`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cedix.io/Views/Manage/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cedix.io/Views/Account/LoginWithRecoveryCode.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Account/ResetPassword.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/Index.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/SetPassword.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/ExternalLogins.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/ChangePassword.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/_ManageNav.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/ShowRecoveryCodes.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/TwoFactorAuthentication.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Manage/EnableAuthenticator.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Properties/launchSettings.json" />
+        <option value="$PROJECT_DIR$/cedix.io/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Shared/_LoginPartial.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Shared/_Footer.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Shared/_Scripts.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Pages/Btc/Sell.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/Country.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/PaymentMethod.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/PaymentMethodFields.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/MyPaymentMethods.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Pages/Btc/Buy.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Pages/Btc/Index.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Shared/_Head.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Shared/_Header.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Account/Login.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Account/Register.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Views/Btc/Index.cshtml" />
+        <option value="$PROJECT_DIR$/cedix.io/Controllers/ManageController.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/BtcBuySellModel.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbModels/CoinModel.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Logger.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/Utils.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/SettingsData.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/HttpHandler.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/ApplicationLogging.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Constants.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbModels/Country.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/CoinBuyerViewModel.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbModels/UserRating.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/CoinSellerViewModel - Copy.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Controllers/BtcController.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/BtcViewBuySellModel.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbHandler.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Controllers/AccountController.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbModels/CoinBuyer.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbModels/CoinSeller.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Models/DbModels/MyPaymentMethods.cs" />
+        <option value="$PROJECT_DIR$/cedix.io/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="40" />
+    <option name="y" value="40" />
+    <option name="width" value="2800" />
+    <option name="height" value="1560" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Views" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Views" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="Shared" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="cedix.io" type="34e6ba20:FileSystemExplorerNode" />
+              <item name=".idea" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="cedix.io" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="cedix.io" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="cedix.io" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="cedix.io" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="cedix.io" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cedix.io/Views/Shared/_LoginPartial.cshtml" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/cedix.io/bin/Debug/netcoreapp2.1/cedix.io.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cedix.io" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/cedix.io/cedix.io.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser name="71f6edbe-66ff-47bf-9209-9ca3f5e0cef3" start="true" with-js-debugger="true" url="https://localhost:5001" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Default JavaScript" type="JavascriptDebugType" factoryName="JavaScript Debug" engineId="71f6edbe-66ff-47bf-9209-9ca3f5e0cef3" uri="https://localhost:5001">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue="JavaScript Debug.Default JavaScript" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00cd25e2-b67c-4afb-8da7-e10aa543bc6d" name="Default Changelist" comment="" />
+      <created>1538396127569</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538396127569</updated>
+      <workItem from="1538396129913" duration="1675000" />
+      <workItem from="1538411599300" duration="10898000" />
+      <workItem from="1538440422027" duration="18638000" />
+      <workItem from="1538508864154" duration="1379000" />
+      <workItem from="1538561523991" duration="1309000" />
+      <workItem from="1538588268429" duration="5423000" />
+      <workItem from="1538651750109" duration="1188000" />
+      <workItem from="1538752640759" duration="10595000" />
+      <workItem from="1539035211401" duration="9533000" />
+      <workItem from="1539118507146" duration="2496000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="63134000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-6" y="-6" width="1453" height="873" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28315413" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34501347" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49191374" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.46091643" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.33962265" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.16576819" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/ResetPassword.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/LoginWithRecoveryCode.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="62" selection-start-column="62" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/Lockout.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/ForgotPasswordConfirmation.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/ForgotPassword.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/ExternalLogin.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Scripts.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="47" column="52" selection-start-line="47" selection-start-column="52" selection-end-line="47" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Footer.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_LoginPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" column="11" selection-start-line="7" selection-start-column="1" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Layout_bck.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="44" selection-start-line="41" selection-start-column="4" selection-end-line="41" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/ConfirmEmail.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/AccessDenied.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_CookieConsentPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Btc/Sell.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Btc/Buy.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/95960AC7-4B50-4869-807C-E444C9B64A1F/77/26e49dd7/RazorPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="49" selection-start-line="48" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Header.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="93" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/Login.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" column="66" selection-start-line="31" selection-start-column="66" selection-end-line="31" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Account/Register.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_ValidationScriptsPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Shared/_Head.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Views/Btc/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Controllers/ManageController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Logger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/Utils.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/SettingsData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/HttpHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/F87AB8DF-203C-4900-869F-EE5EDFC1FC21/7/MySqlConnection.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7617">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/ApplicationLogging.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Constants.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/CoinSellerViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Controllers/BtcController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CD89B27F-93D1-49CE-931D-9A238195A24B/4c/f79a100d/IdentityUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/ApplicationUser.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinBuyer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <marker date="1539073024692" expanded="true" signature="78:531" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/Country.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1539043949936" expanded="true" signature="52:240" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/MyPaymentMethods.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <marker date="1539073024725" expanded="true" signature="61:296" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/BtcViewBuySellModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+          <folding>
+            <marker date="1539071352670" expanded="false" signature="6:65" ph="..." />
+            <marker date="1539071352670" expanded="true" signature="131:859" ph="{...}" />
+            <marker date="1539071352670" expanded="true" signature="277:436" ph="{...}" />
+            <marker date="1539071352670" expanded="true" signature="649:731" ph="{...}" />
+            <marker date="1539071352670" expanded="true" signature="774:853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethodFields.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1538608665524" expanded="true" signature="64:253" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/UserRating.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1539044474525" expanded="true" signature="64:276" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/CoinBuyerViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1539044247541" expanded="true" signature="63:468" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/CoinSeller.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1539073024729" expanded="true" signature="79:445" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <marker date="1539071352655" expanded="false" signature="6:123" ph="..." />
+            <marker date="1539071352655" expanded="true" signature="150:1371" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="179:1369" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="318:537" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="344:527" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="396:480" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="607:836" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="893:962" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="1027:1096" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="1163:1232" ph="{...}" />
+            <marker date="1539071352655" expanded="true" signature="1294:1363" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/log4net.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Controllers/AccountController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="51" column="26" selection-start-line="51" selection-start-column="26" selection-end-line="51" selection-end-column="26" />
+          <folding>
+            <marker date="1539072795965" expanded="false" signature="6:483" ph="..." />
+            <marker date="1539072795965" expanded="true" signature="516:17248" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="619:17246" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="1079:1253" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="1438:1705" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="1879:3220" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="1972:3110" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="2003:2165" ph="/* This doesn't count login failures towards account lockout ... */" />
+            <marker date="1539072795965" expanded="true" signature="2346:2521" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="2567:2707" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="2747:2913" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="2934:3096" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="3360:3866" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="3569:3696" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="4071:5394" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="4118:4182" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="4296:4438" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="4721:4894" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="4935:5111" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="5128:5384" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="5526:5947" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="5734:5861" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="6153:7391" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="6200:6264" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="6378:6505" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="6714:6899" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="6935:7111" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="7128:7381" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="7474:7521" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="7628:7722" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="7902:9038" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="7995:8927" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="8223:8878" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="9143:9343" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="9508:9859" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="10018:11440" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="10065:10228" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="10331:10415" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="10703:10882" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="10918:11004" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="11021:11430" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="11642:12874" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="11688:12761" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="11900:12053" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="12253:12712" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="12388:12694" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="13000:13535" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="13058:13165" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="13260:13380" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="13625:13672" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="13839:15008" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="13885:14897" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="14063:14265" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="14283:14442" ph="/* For more information on how to enable account confirmation and password reset please ... */" />
+            <marker date="1539072795965" expanded="true" signature="15110:15157" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="15264:15537" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="15304:15427" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="15702:16385" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="15749:15813" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="15916:16081" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="16213:16317" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="16486:16533" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="16597:16644" ph="{...}" />
+            <marker date="1539072795965" expanded="false" signature="16654:17240" ph="Helpers" />
+            <marker date="1539072795965" expanded="true" signature="16724:16896" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="16783:16886" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="16961:17220" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="17014:17086" ph="{...}" />
+            <marker date="1539072795965" expanded="true" signature="17103:17210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-160">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <marker date="1539123423328" expanded="true" signature="6:354" ph="..." />
+            <marker date="1539123423328" expanded="true" signature="374:3942" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="401:3940" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="460:523" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="746:3036" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="1104:1419" ph="/* services.AddIdentity&lt;Models.Account, IdentityRole&gt;(options =&gt; ... */" />
+            <marker date="1539123423328" expanded="true" signature="1479:2222" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="2284:2885" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="2466:2566" ph="/* If the LoginPath isn't set, ASP.NET Core defaults ... */" />
+            <marker date="1539123423328" expanded="true" signature="2637:2751" ph="/* If the AccessDeniedPath isn't set, ASP.NET Core defaults ... */" />
+            <marker date="1539123423328" expanded="true" signature="3253:3934" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="3300:3461" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="3478:3562" ph="{...}" />
+            <marker date="1539123423328" expanded="true" signature="3772:3922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cedix.io/Models/DbModels/PaymentMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding>
+            <marker date="1538608109796" expanded="true" signature="25:199" ph="{...}" />
+            <marker date="1538608109796" expanded="true" signature="58:197" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
