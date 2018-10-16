@@ -8,6 +8,7 @@ namespace cedix.io.Models.DbModels
         public int CoinId { get; set; }
         public string Description { get; set; }
         public string UserId { get; set; }
+        public string UserName { get; set; }
         public decimal MinBuy { get; set; }
         public decimal MaxBuy { get; set; }
         public decimal BuyingAt { get; set; }

@@ -3,11 +3,11 @@ using cedix.io.Models.DbModels;
 
 namespace cedix.io.Models
 {
-    public class BtcViewBuySellModel
+    public class BuySellViewModel
     {
         private Country _country;
         private string _coinCode;
-        public BtcViewBuySellModel(Country countryInfo,string coinCode)
+        public BuySellViewModel(Country countryInfo,string coinCode)
         {
             _country = countryInfo;
             _coinCode = coinCode;
@@ -20,12 +20,12 @@ namespace cedix.io.Models
 
         public void LoadSellers(int count)
         {
-            sellers = DbHandler.Instance.LoadSellers(count); 
+            sellers = DbHandler.Instance.LoadSellers(_coinCode,count); 
         }
 
         public void LoadBuyers(int count)
         {
-            buyers = DbHandler.Instance.LoadBuyers(count);
+            buyers = DbHandler.Instance.LoadBuyers(_coinCode,count);
         }
     }
 }

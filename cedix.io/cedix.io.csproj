@@ -9,6 +9,8 @@
 
     <ItemGroup>
         <PackageReference Include="Dapper" Version="1.50.5" />
+        <PackageReference Include="Dapper.Rainbow.MySql" Version="0.10.1" />
+        <PackageReference Include="DapperExtensions" Version="1.6.3" />
         <PackageReference Include="Microsoft.AspNetCore.App" Version="2.1.4" />
         <PackageReference Include="Microsoft.Extensions.Logging.Log4Net.AspNetCore" Version="2.2.5" />
         <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.4" PrivateAssets="All" />

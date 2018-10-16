@@ -24,20 +24,16 @@ namespace cedix.io
 
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionString = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseMySql(Configuration.GetConnectionString("DefaultConnection")));
-
+            DbHandler.ConnectionString = connectionString; 
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
             
- //            services.AddIdentity<Models.Account, IdentityRole>(options =>
-//                {
-//                    options.User.RequireUniqueEmail = false;
-//                })
-//                .AddEntityFrameworkStores<Providers.Database.EFProvider.DataContext>()
-//                .AddDefaultTokenProviders();
-
+ 
+            
             services.Configure<IdentityOptions>(options =>
             {
                 // Password settings
@@ -91,17 +87,27 @@ namespace cedix.io
             {
                 app.UseExceptionHandler("/Home/Error");
             }
-
+  
             app.UseStaticFiles();
             loggerFactory.AddLog4Net(); 
-            app.UseAuthentication();
-
-            ApplicationLogging.ConfigureLogger(loggerFactory);
+            app.UseAuthentication(); 
+            ApplicationLogging.ConfigureLogger(loggerFactory); 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            
+            
+            #if DEBUG
+            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
+            {
+                var userManager = serviceScope.ServiceProvider.GetService<UserManager<IdentityUser>>();
+                var dbInitializer = new DbInitializer(userManager);
+                //dbInitializer.ResetDb();
+                dbInitializer.InitializeDatabase();
+            }
+            #endif
         }
     }
 }

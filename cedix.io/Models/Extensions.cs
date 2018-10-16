@@ -29,6 +29,15 @@ namespace web.Models
             int.TryParse(obj.ToString(),out myInt);
             return myInt;
         }
+        
+        public static decimal ToDecimal(this JToken obj){
+            if(obj ==null){
+                return 0;
+            }
+            decimal mydec=0;
+            decimal.TryParse(obj.ToString(),out mydec);
+            return mydec;
+        }
 
         public static JArray ToJArray<T>(this List<T> list) where T:class{
 
