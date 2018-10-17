@@ -232,19 +232,23 @@ namespace cedix.io
         public void InstallScriptsIfNotExist()
         {
 
-            if (DbHandler.Instance.DatabaseHasTables())
+            if (!DbHandler.Instance.DatabaseHasTables())
             {
-                return;
+               string appDir = AppDomain.CurrentDomain.BaseDirectory;
+                if (appDir.IndexOf("bin") > -1)
+                {
+                    appDir = appDir.Split(new[] { "bin" }, StringSplitOptions.RemoveEmptyEntries).FirstOrDefault();
+                    string filepath = System.IO.Path.Combine(appDir, "cedix.sql");
+                    if (System.IO.File.Exists(filepath))
+                    {
+                        string sqlScript = System.IO.File.ReadAllText(filepath);
+                        DbHandler.Instance.ExecuteRaw(sqlScript);
+                    }
+                    return;
+                }
+               
             }
-            try
-            {
-                OperatingSystem
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;    
-            }
+             
         }
 
 

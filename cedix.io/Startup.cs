@@ -102,8 +102,9 @@ namespace cedix.io
             {
                 var userManager = serviceScope.ServiceProvider.GetService<UserManager<IdentityUser>>();
                 var dbInitializer = new DbInitializer(userManager);
-                dbInitializer.ResetDb();
-                dbInitializer.InitializeDatabase();
+                dbInitializer.InstallScriptsIfNotExist();
+               // dbInitializer.ResetDb();
+              //  dbInitializer.InitializeDatabase();
             }
             #endif
         }
