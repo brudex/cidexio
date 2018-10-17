@@ -5,6 +5,7 @@ using cedix.io.Models.DbModels;
 using Dapper;
 using DapperExtensions;
 using DapperExtensions.Sql;
+using Microsoft.AspNetCore.Authentication.Facebook;
 
 
 namespace cedix.io.Models
@@ -203,18 +204,40 @@ namespace cedix.io.Models
             using (var conn = GetOpenConnection())
             {
 
-                var list = conn.Query<CoinSellerViewModel>(
-                    "select cs.Id ,cs.CoinCode, c.IsoCurrency as 'CountryCurrency',c.IsoCode as 'CountryCode',cs.Description," +
-                    "cs.MinSell,cs.MaxSell,cs.SellingAt,cs.UserName,p.Description as 'PaymentMethod' from coinseller cs inner join country c on cs.countryId = c.id inner join " +
-                    "paymentmethod p on cs.paymentmethodId = p.id where cs.CoinCode = @coinCode order by cs.Id desc limit @count",
-                    new {coinCode, count});
+                var list = conn.Query<CoinBuyerViewModel>(
+                    "select cs.Id ,cs.CoinCode, c.IsoCurrency as 'CountryCurrency',c.IsoCode as 'CountryCode',cs.Description,cs.MinBuy,cs.MaxBuy," +
+                    "cs.BuyingAt,cs.UserName,p.Description as 'PaymentMethod' from coinbuyer cs inner join country c on cs.countryId = c.id inner join " +
+                    "paymentmethod p on cs.paymentmethodId = p.id where cs.CoinCode = @coinCode and cs.MinBuy <= 0.01 and cs.MaxBuy >= 0.01 order by cs.Id desc",
+                    new {coinCode, amount});
                 return list.ToList();
             }
         }
 
-        public List<CoinBuyerViewModel> SearchSellersByCountry(decimal amount, Country countryInfo, string btc)
+        public List<CoinSellerViewModel> SearchSellersByCountry(decimal amount, Country countryInfo, string coinCode)
         {
-            throw new System.NotImplementedException();
+            using (var conn = GetOpenConnection())
+            {
+
+                var list = conn.Query<CoinSellerViewModel>(
+                    "select cs.Id ,cs.CoinCode, c.IsoCurrency as 'CountryCurrency',c.IsoCode as 'CountryCode',cs.Description,cs.MinSell," +
+                    "cs.MaxSell,cs.SellingAt,cs.UserName,p.Description as 'PaymentMethod' from " +
+                    "coinseller cs inner join country c on cs.countryId = c.id inner join paymentmethod p on " +
+                    "cs.paymentmethodId = p.id where cs.CoinCode = @coinCode and cs.MinSell <= @amount and cs.MaxSell > @amount order by cs.Id desc",
+                    new {coinCode, amount});
+                return list.ToList();
+            }
         }
+
+        public bool DatabaseHasTables()
+        {
+            using (var conn = GetOpenConnection())
+            {
+
+                var tables = conn.Query<CoinBuyerViewModel>("SHOW TABLES LIKE 'country'").ToList();
+                return tables.Count > 0;
+            }
+           
+        }
+
     }
 }

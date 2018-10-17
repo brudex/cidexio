@@ -68,7 +68,7 @@ namespace cedix.io.Controllers
             decimal amount = data["amount"].ToDecimal();
             string countryCode = data["country"].ToString2();
             Country countryInfo = DbHandler.Instance.GetCountryByCode(countryCode);
-            List<CoinBuyerViewModel> sellers = DbHandler.Instance.SearchSellersByCountry(amount, countryInfo,Constants.Coins.Btc);
+            List<CoinSellerViewModel> sellers = DbHandler.Instance.SearchSellersByCountry(amount, countryInfo,Constants.Coins.Btc);
             var response = new ServiceResponse(){status = "00"};
             response.data = sellers;
             return Ok(response);

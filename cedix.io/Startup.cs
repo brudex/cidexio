@@ -32,8 +32,6 @@ namespace cedix.io
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
             
- 
-            
             services.Configure<IdentityOptions>(options =>
             {
                 // Password settings
@@ -104,7 +102,7 @@ namespace cedix.io
             {
                 var userManager = serviceScope.ServiceProvider.GetService<UserManager<IdentityUser>>();
                 var dbInitializer = new DbInitializer(userManager);
-                //dbInitializer.ResetDb();
+                dbInitializer.ResetDb();
                 dbInitializer.InitializeDatabase();
             }
             #endif

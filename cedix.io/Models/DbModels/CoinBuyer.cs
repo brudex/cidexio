@@ -6,6 +6,7 @@ namespace cedix.io.Models.DbModels
     {
         public int Id { get; set; }
         public int CoinId { get; set; }
+        public string CoinCode { get; set; }
         public string Description { get; set; }
         public string UserId { get; set; }
         public string UserName { get; set; }

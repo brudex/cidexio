@@ -198,6 +198,7 @@ namespace cedix.io
                 buyer.MinBuy = new decimal(0.01);
                 buyer.MaxBuy = Decimal.One;
                 buyer.UserName = wt.UserName;
+                buyer.CoinCode = coinModel.CoinCode;
                 int paymentIndex =  _randomizer.Next(0, paymentMethods.Count-1);
                 buyer.PaymentMethodId = paymentMethods[paymentIndex].Id;
                 buyer.CreatedAt = DateTime.Now;
@@ -220,10 +221,29 @@ namespace cedix.io
                 seller.MaxSell = 1;
                 seller.UserName = wt.UserName;
                 seller.CountryId = country.Id;
+                seller.CoinCode = coinModel.CoinCode;
                 int paymentIndex =  _randomizer.Next(0, paymentMethods.Count-1);
                 seller.PaymentMethodId = paymentMethods[paymentIndex].Id;
                 seller.CreatedAt = DateTime.Now;
                 DbHandler.Instance.CreateSeller(seller); 
+            }
+        }
+
+        public void InstallScriptsIfNotExist()
+        {
+
+            if (DbHandler.Instance.DatabaseHasTables())
+            {
+                return;
+            }
+            try
+            {
+                OperatingSystem
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                throw;    
             }
         }
 
