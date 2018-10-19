@@ -29,7 +29,7 @@ namespace cedix.io.Models
             var coinModel = DbHandler.Instance.GetCoinModelByCode(buyer.CoinCode);
             CoinName = coinModel.Description;
             var paymentMethod = DbHandler.Instance.GetMyPaymentBySellerAndPymentId(buyer.PaymentMethodId, buyer.Id);
-            PaymentMethod = paymentMethod.GetViewModel();
+            PaymentMethod = paymentMethod.GetViewModel();//883624114
         }
 
          
