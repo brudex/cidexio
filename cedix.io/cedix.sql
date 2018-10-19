@@ -74,8 +74,8 @@ DROP TABLE IF EXISTS `aspnetroles`;
  SET character_set_client = utf8mb4 ;
 CREATE TABLE `aspnetroles` (
   `Id` varchar(255) NOT NULL,
-  `Name` varchar(256) DEFAULT NULL,
-  `NormalizedName` varchar(256) DEFAULT NULL,
+  `Name` varchar(255) DEFAULT NULL,
+  `NormalizedName` varchar(255) DEFAULT NULL,
   `ConcurrencyStamp` longtext,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `RoleNameIndex` (`NormalizedName`)
@@ -145,9 +145,9 @@ DROP TABLE IF EXISTS `aspnetusers`;
 CREATE TABLE `aspnetusers` (
   `Id` varchar(255) NOT NULL,
   `UserName` varchar(256) DEFAULT NULL,
-  `NormalizedUserName` varchar(256) DEFAULT NULL,
-  `Email` varchar(256) DEFAULT NULL,
-  `NormalizedEmail` varchar(256) DEFAULT NULL,
+  `NormalizedUserName` varchar(255) DEFAULT NULL,
+  `Email` varchar(255) DEFAULT NULL,
+  `NormalizedEmail` varchar(255) DEFAULT NULL,
   `EmailConfirmed` bit(1) NOT NULL,
   `PasswordHash` longtext,
   `SecurityStamp` longtext,
@@ -195,6 +195,7 @@ CREATE TABLE `coinbuyer` (
   `UserId` varchar(100) DEFAULT NULL,
   `MinBuy` decimal(20,12) DEFAULT NULL,
   `MaxBuy` decimal(20,12) DEFAULT NULL,
+  `TotalAmount` decimal(20,12) DEFAULT NULL,
   `BuyingAt` decimal(20,12) DEFAULT NULL,
   `PaymentMethodId` int(11) DEFAULT NULL,
   `CountryId` int(11) DEFAULT NULL,
@@ -241,7 +242,7 @@ CREATE TABLE `coinseller` (
   `CountryId` int(11) DEFAULT NULL,
   `CreatedAt` datetime DEFAULT NULL,
   `MinSell` decimal(20,12) DEFAULT NULL,
-  `MaxSell` decimal(20,12) DEFAULT NULL,
+  `TotalAmount` decimal(20,12) DEFAULT NULL,
   `UserName` varchar(45) DEFAULT NULL,
   `CoinCode` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`Id`)

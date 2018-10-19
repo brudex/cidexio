@@ -12,7 +12,10 @@ namespace cedix.io.Models.DbModels
         public string UserName { get; set; }
         public decimal MinBuy { get; set; }
         public decimal MaxBuy { get; set; }
+        public string RefExchange { get; set; }
+        public decimal TotalAmount { get; set; }
         public decimal BuyingAt { get; set; }
+        public int PaymentWindow{ get; set; } //max number of minutes trade should laster
         public int PaymentMethodId { get; set; }
         public int CountryId { get; set; }
         public DateTime CreatedAt { get; set; }

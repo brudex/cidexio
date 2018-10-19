@@ -31,26 +31,22 @@ namespace cedix.io
             services.AddIdentity<IdentityUser, IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
-            
             services.Configure<IdentityOptions>(options =>
             {
-                // Password settings
+                //Password settings
                 options.Password.RequireDigit = true;
                 options.Password.RequiredLength = 8;
                 options.Password.RequireNonAlphanumeric = false;
                 options.Password.RequireUppercase = true;
                 options.Password.RequireLowercase = false;
                 options.Password.RequiredUniqueChars = 6;
-
                 // Lockout settings
                 options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
                 options.Lockout.MaxFailedAccessAttempts = 10;
                 options.Lockout.AllowedForNewUsers = true;
-
                 // User settings
                 options.User.RequireUniqueEmail = true;
             });
-
             services.ConfigureApplicationCookie(options =>
             {
                 // Cookie settings
@@ -64,10 +60,8 @@ namespace cedix.io
                 options.AccessDeniedPath = "/Account/AccessDenied";
                // options.SlidingExpiration = true;
             });
-
             // Add application services.
             services.AddTransient<IEmailSender, EmailSender>();
-
             services.AddMvc();
 
         }
@@ -103,8 +97,8 @@ namespace cedix.io
                 var userManager = serviceScope.ServiceProvider.GetService<UserManager<IdentityUser>>();
                 var dbInitializer = new DbInitializer(userManager);
                 dbInitializer.InstallScriptsIfNotExist();
-               // dbInitializer.ResetDb();
-              //  dbInitializer.InitializeDatabase();
+                //dbInitializer.ResetDb();
+                dbInitializer.InitializeDatabase();
             }
             #endif
         }

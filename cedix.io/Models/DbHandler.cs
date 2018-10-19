@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -10,14 +11,8 @@ using Microsoft.AspNetCore.Authentication.Facebook;
 
 namespace cedix.io.Models
 {
-    public interface ISnack<T> where T : new()
-    {
-
-    }
-
-    public abstract class Kitchen<T> where T : ISnack<T>, new()
-    {
-    }
+    
+    
 
     public class Db : Database<Db>
     {
@@ -27,6 +22,7 @@ namespace cedix.io.Models
         public Table<CoinBuyer> coinBuyers { get; set; }
         public Table<CoinSeller> coinSellers { get; set; }
         public Table<PaymentMethod> paymentMethods { get; set; }
+        public Table<MyPaymentMethods> myPaymentMethods { get; set; }
         public Table<PaymentMethodFields> paymentMethodFields { get; set; }
         public Table<UserWallet> userWallets { get; set; }
 
@@ -47,9 +43,9 @@ namespace cedix.io.Models
         {
             DapperExtensions.DapperExtensions.SqlDialect = new MySqlDialect();
             db = Db.Init(GetMysqlConnection(), 30);
-            // DapperExtensions.DapperExtensions.DefaultMapper = typeof(CustomMysqlClassMapper<>);
-            //DapperExtensions.DapperExtensions.DefaultMapper = typeof(PrimaryKeyAssignedClassMapper<>);
+         
         }
+
 
         public static DbHandler Instance
         {
@@ -86,6 +82,15 @@ namespace cedix.io.Models
                 var predicate = Predicates.Field<Country>(f => f.IsoCode, Operator.Eq, countryCode);
                 var country = conn.GetList<Country>(predicate).FirstOrDefault();
                 return country;
+            }
+        }
+        public T GetById<T>(int id) where T:class
+        {
+            using (var conn = GetOpenConnection())
+            {
+                 
+                return conn.Get<T>(id);
+                
             }
         }
 
@@ -127,6 +132,8 @@ namespace cedix.io.Models
             }
         }
 
+
+
         public int GetUsersCount()
         {
             using (var conn = GetOpenConnection())
@@ -156,6 +163,19 @@ namespace cedix.io.Models
 
         }
 
+
+        internal MyPaymentMethods GetMyPaymentBySellerAndPymentId(int paymethoId,int sellerId)
+        {
+            using (var conn = GetOpenConnection())
+            {
+                var p1 = Predicates.Field<MyPaymentMethods>(f => f.PaymentMethodId, Operator.Eq, paymethoId);
+                var p2 = Predicates.Field<MyPaymentMethods>(f => f.SellId, Operator.Eq, sellerId);
+                var predicate = Predicates.Group(GroupOperator.And, p1, p2);
+                var list = conn.GetList<MyPaymentMethods>(predicate);
+                return list.FirstOrDefault();
+            }
+        }
+
         public int AddCountry(object obj)
         {
             int id = (int) db.countries.Insert(obj);
@@ -166,6 +186,12 @@ namespace cedix.io.Models
         public int CreatePaymentMethod(PaymentMethod paymethod)
         {
             int id = (int) db.paymentMethods.Insert(paymethod);
+            return id;
+        }
+
+        public int CreateMyPaymentMethod(MyPaymentMethods paymethod)
+        {
+            int id = (int)db.myPaymentMethods.Insert(paymethod);
             return id;
         }
 
@@ -239,5 +265,25 @@ namespace cedix.io.Models
            
         }
 
+        internal AccountProfile GetAcctProfileByUserId(string id)
+        {
+            using (var conn = GetOpenConnection())
+            {
+                var predicate = Predicates.Field<AccountProfile>(f => f.UserId, Operator.Eq, id);
+                var list = conn.GetList<AccountProfile>(predicate).FirstOrDefault();
+                return list;
+            }
+        }
+
+
+        internal CoinBuyer GetCoinBuyerById(int id)
+        {
+
+            using (var conn = GetOpenConnection())
+            {
+                var list = conn.Get<CoinBuyer>(id);
+                return list;
+            }
+        }
     }
 }

@@ -197,6 +197,7 @@ namespace cedix.io
                 buyer.CountryId = country.Id;
                 buyer.MinBuy = new decimal(0.01);
                 buyer.MaxBuy = Decimal.One;
+                buyer.TotalAmount = Decimal.One;
                 buyer.UserName = wt.UserName;
                 buyer.CoinCode = coinModel.CoinCode;
                 int paymentIndex =  _randomizer.Next(0, paymentMethods.Count-1);
@@ -219,6 +220,7 @@ namespace cedix.io
                 seller.SellingAt = coinModel.SellAt;
                 seller.MinSell = 0.5m;
                 seller.MaxSell = 1;
+                seller.TotalAmount = Decimal.One;
                 seller.UserName = wt.UserName;
                 seller.CountryId = country.Id;
                 seller.CoinCode = coinModel.CoinCode;

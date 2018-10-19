@@ -2,7 +2,6 @@ namespace cedix.io.Models
 {
     public class CoinSellerViewModel
     {
-       
         public int Id { get; set; }
         public string CountryCurrency { get; set; }
         public string Description { get; set; }

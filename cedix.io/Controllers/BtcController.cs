@@ -1,14 +1,31 @@
-using System.Collections.Generic;
 using cedix.io.Models;
+using cedix.io.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using Newtonsoft.Json.Linq;
+using System.Collections.Generic;
 using web.Models;
 
 namespace cedix.io.Controllers
 {
     public class BtcController : Controller
-    {
-         
+    { 
+        private readonly UserManager<IdentityUser> _userManager;
+        private readonly IEmailSender _emailSender;
+        private readonly ILogger _logger;
+
+        public BtcController(
+            UserManager<IdentityUser> userManager,
+             IEmailSender emailSender,
+            ILogger<AccountController> logger)
+        {
+            _userManager = userManager;
+            _emailSender = emailSender;
+            _logger = logger;
+        }
+
+
         [HttpGet("[controller]/[action]/{country}")]
         public IActionResult Index(string country)
         {
@@ -47,8 +64,33 @@ namespace cedix.io.Controllers
             model.UserName = User.Identity.Name;
             return View(model);
         }
-        
-        
+
+        [HttpGet("[controller]/[action]/{country}")]
+        public IActionResult SellOffer(string country)
+        {
+          var model = new SellOfferViewModel(Constants.Coins.Btc,country);
+            return View(model);
+        }
+
+
+        [HttpGet("[controller]/[action]")]
+        public IActionResult PostSellOffer([FromBody]SellOfferViewModel model)
+        {
+            var id = _userManager.GetUserId(User);
+            var profile = DbHandler.Instance.GetAcctProfileByUserId(id);
+            model.Save(profile);
+            return View(model);
+        }
+
+        [HttpGet("[controller]/[action]/{country}")]
+        public IActionResult BuyOffer(string country)
+        {
+            var model = new SellOfferViewModel(Constants.Coins.Btc, country);
+            return View(model);
+        }
+
+
+
         [HttpPost("[controller]/[action]")]
         public IActionResult SearchBuyers([FromBody]JObject data)
         {
