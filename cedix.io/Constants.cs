@@ -19,5 +19,12 @@ namespace cedix.io
             public const string Alpha="alpha";
             public const string Password="password";
          }
+
+        public static class BuySell
+        {
+            public const string Buy = "BUY";
+            public const string Sell = "SELL";
+           
+        }
     }
 }

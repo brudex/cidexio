@@ -25,30 +25,66 @@ namespace cedix.io.Controllers
             _logger = logger;
         }
 
-
-
-        [HttpGet("[controller]/[action]")]
-        public IActionResult Buy([FromBody] JObject data)
+        [HttpPost("[controller]/[action]")]
+        public IActionResult Create([FromBody] JObject data)
         {
-            int buyerId = data["id"].ToObject<int>();
             decimal coinAmount = data["coinAmount"].ToObject<decimal>();
-            CoinSeller seller = DbHandler.Instance.GetById<CoinSeller>(buyerId);
-            var viewModel = new TradeBuyViewModel(seller, coinAmount);
-            return View(viewModel);
+            string buySell  = data["buySell"].ToObject<string>();
+            int id = data["id"].ToObject<int>();
+            var trade = PtpTrade.CreateTrade(coinAmount, id, buySell);
+            if (trade != null)
+            {
+                if (trade.BuySell == Constants.BuySell.Buy)
+                {
+                  return RedirectToLocal("/trade/buy/"+trade.PaymentReference);
+                }
+                else
+                {
+                  return  RedirectToLocal("/trade/sell/" + trade.PaymentReference);
+                }
+            }
+            return RedirectToLocal("/404");
         }
 
 
-
-        [HttpGet("[controller]/[action]")]
-        public IActionResult Sell([FromBody] JObject data)
+        [HttpGet("[controller]/[action]/{id}")]
+        public IActionResult Buy(string id)
         {
-            int buyerId = data["id"].ToObject<int>();
-            decimal coinAmount = data["coinAmount"].ToObject<decimal>();
-            CoinSeller seller = DbHandler.Instance.GetById<CoinSeller>(buyerId);
-            var viewModel = new TradeBuyViewModel(seller, coinAmount);
-            return View(viewModel);
+            var ptpTrade = PtpTrade.GetTrade(id, Constants.BuySell.Buy);
+            if (ptpTrade == null)
+            {
+                return RedirectToLocal("/404");
+            }
+            var vm = new PtpTradeViewModel(ptpTrade);
+            return View(vm);
         }
 
+
+        [HttpGet("[controller]/[action]/{id}")]
+        public IActionResult Sell(string id)
+        {
+            var ptpTrade = PtpTrade.GetTrade(id, Constants.BuySell.Sell);
+            if (ptpTrade == null)
+            {
+                return RedirectToLocal("/404");
+            }
+            var vm = new PtpTradeViewModel(ptpTrade);
+            return View(vm);
+
+        }
+
+
+        private IActionResult RedirectToLocal(string returnUrl)
+        {
+            if (Url.IsLocalUrl(returnUrl))
+            {
+                return Redirect(returnUrl);
+            }
+            else
+            {
+                return RedirectToAction(nameof(HomeController.Index), "Home");
+            }
+        }
     }
 }
     

@@ -9,6 +9,10 @@ namespace cedix.io.Models.AccountViewModels
     public class RegisterViewModel
     {
         [Required]
+        [Display(Name = "User name")]
+        public string UserName { get; set; }
+
+        [Required]
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }

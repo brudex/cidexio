@@ -36,7 +36,11 @@ namespace cedix.io.Controllers
             return View(model);
         }
         
-        // GET
+        /// <summary>
+        /// Page to enter the amount you want buy
+        /// </summary>
+        /// <param name="country"></param>
+        /// <returns></returns>
         [HttpGet("[controller]/[action]/{country}")]
         public IActionResult Buy(string country)
         {
@@ -51,6 +55,12 @@ namespace cedix.io.Controllers
             return View();
         }
         
+
+        /// <summary>
+        /// Page to enter the amount you want to Sell 
+        /// </summary>
+        /// <param name="country"></param>
+        /// <returns></returns>
         [HttpGet("[controller]/[action]/{country}")]
         public IActionResult Sell(string country)
         {
@@ -89,6 +99,14 @@ namespace cedix.io.Controllers
             return View(model);
         }
 
+        [HttpGet("[controller]/[action]")]
+        public IActionResult PostBuyOffer([FromBody]BuyOfferViewModel model)
+        {
+            var id = _userManager.GetUserId(User);
+            var profile = DbHandler.Instance.GetAcctProfileByUserId(id);
+            model.Save(profile);
+            return View(model);
+        }
 
 
         [HttpPost("[controller]/[action]")]

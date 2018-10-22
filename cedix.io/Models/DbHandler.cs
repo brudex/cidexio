@@ -176,6 +176,20 @@ namespace cedix.io.Models
             }
         }
 
+
+        internal MyPaymentMethods GetMyPaymentByBuyerAndPymentId(int paymethoId, int buyerId)
+        {
+            using (var conn = GetOpenConnection())
+            {
+                var p1 = Predicates.Field<MyPaymentMethods>(f => f.PaymentMethodId, Operator.Eq, paymethoId);
+                var p2 = Predicates.Field<MyPaymentMethods>(f => f.BuyId, Operator.Eq, buyerId);
+                var predicate = Predicates.Group(GroupOperator.And, p1, p2);
+                var list = conn.GetList<MyPaymentMethods>(predicate);
+                return list.FirstOrDefault();
+            }
+        }
+
+
         public int AddCountry(object obj)
         {
             int id = (int) db.countries.Insert(obj);
@@ -282,6 +296,18 @@ namespace cedix.io.Models
             using (var conn = GetOpenConnection())
             {
                 var list = conn.Get<CoinBuyer>(id);
+                return list;
+            }
+        }
+
+        public PtpTrade GetTradeByPaymentReference(string paymentReference,string buySell)
+        {
+            using (var conn = GetOpenConnection())
+            {
+                var p1 = Predicates.Field<PtpTrade>(f => f.PaymentReference, Operator.Eq, paymentReference);
+                var p2 = Predicates.Field<PtpTrade>(f => f.BuySell, Operator.Eq, buySell);
+                var predicate = Predicates.Group(GroupOperator.And,p1,p2);
+                var list = conn.GetList<PtpTrade>(predicate).FirstOrDefault();
                 return list;
             }
         }
