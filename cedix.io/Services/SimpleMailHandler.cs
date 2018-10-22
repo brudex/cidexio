@@ -25,7 +25,7 @@ namespace cedix.io.Services
                 var client = new RestClient();
                 client.BaseUrl = new Uri("https://api.mailgun.net/v3");
                 client.Authenticator =
-                    new HttpBasicAuthenticator("api", "key-9e2746dcf1a2b5b618ebf34a5d5e4fd6");
+                    new HttpBasicAuthenticator("api", "");
                 var request = new RestRequest();
                 request.AddParameter("domain", "mg.cedix.io", ParameterType.UrlSegment);
                 request.Resource = "{domain}/messages";
@@ -69,7 +69,7 @@ namespace cedix.io.Services
             var client = new RestClient();
             client.BaseUrl = new Uri("https://api.mailgun.net/v3");
             client.Authenticator =
-                new HttpBasicAuthenticator("api", "key-9e2746dcf1a2b5b618ebf34a5d5e4fd6");
+                new HttpBasicAuthenticator("api", "");
             var request = new RestRequest();
             request.AddParameter("domain", "mg.cedix.io", ParameterType.UrlSegment);
             request.Resource = "{domain}/messages";
@@ -86,7 +86,7 @@ namespace cedix.io.Services
 
         public static async Task<string> SendWithSendgrid(string subject, List<string> toMails, string htmlMsg)
         {
-            var apiKey = "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";
+            var apiKey = "";
             var client = new SendGridClient(apiKey);
             var from = new EmailAddress("info@cedix.io", "CedixIO");
             var receipients = new List<EmailAddress>();
